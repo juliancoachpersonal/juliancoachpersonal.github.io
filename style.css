@@ -1,0 +1,17 @@
+
+
+.main-text {
+    font-family: 'Pacifico', cursive;
+}
+
+.racing-type {
+    font-family: 'Racing Sans One', cursive;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-img {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url("./assets/images/parallax2.webp");
+  }
