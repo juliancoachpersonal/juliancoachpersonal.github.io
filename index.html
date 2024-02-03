@@ -24,7 +24,8 @@
       href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
     <script src="script.js"></script>
   </head>
@@ -100,7 +101,10 @@
             <h2 class="p-0 m-0 text-xl md:text-3xl">PERSONAL</h2>
           </div>
         </div>
-        <!-- <button
+
+
+      <!-- Menu -->
+        <button
           data-collapse-toggle="navbar-default"
           type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -123,39 +127,50 @@
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
-        </button> -->
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        </button>
+        
+        <div class="hidden w-full md:block md:w-auto pt-4 md:pt-0" id="navbar-default">
           <ul
-            class="font-medium text-lg flex flex-col p-4 md:p-0 md:flex-row md:space-x-8 me-6"
+            class="font-medium text-lg flex flex-col items-end md:p-0 md:flex-row md:space-x-8 me-6"
           >
+          <hr class="w-[50%] md:hidden" style="border: 1px solid #d8f934;">
             <li>
               <a
                 href="#about"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
                 >Acerca de mí</a
               >
             </li>
             <li>
               <a
                 href="#services"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
                 >Servicios</a
               >
             </li>
             <li>
               <a
                 href="#brochure"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
                 >Brochure</a
+              >
+            </li>
+            <li class="md:hidden">
+              <a
+                href="/pages/generalies.html"
+                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                >Generalidades</a
               >
             </li>
             <li>
               <a
                 href="#footer"
-                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
                 >Contacto</a
               >
             </li>
+            
+            <hr class="w-[50%] md:hidden" style="border: 1px solid #d8f934;">
           </ul>
         </div>
       </div>
@@ -532,5 +547,26 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var menuButton = document.querySelector("[data-collapse-toggle='navbar-default']");
+        var menuList = document.getElementById("navbar-default");
+    
+        menuButton.addEventListener("click", function () {
+          menuList.classList.toggle("hidden");
+        });
+      });
+    </script>
+
+<script>
+  const navLinks = document.querySelector('.nav-links')
+  function onToggleMenu(e){
+      e.name = e.name === 'menu' ? 'close' : 'menu'
+      navLinks.classList.toggle('top-[7%]')
+  }
+</script>
+    
   </body>
 </html>
