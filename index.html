@@ -24,10 +24,8 @@
       href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     
     <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-    <script src="script.js"></script>
   </head>
 
   <body>
@@ -151,15 +149,8 @@
             <li>
               <a
                 href="#brochure"
-                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
+                class="hidden md:block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
                 >Brochure</a
-              >
-            </li>
-            <li class="md:hidden">
-              <a
-                href="/pages/generalies.html"
-                class="block py-2 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white"
-                >Generalidades</a
               >
             </li>
             <li>
@@ -170,6 +161,24 @@
               >
             </li>
             
+            <li class="">
+              <a
+                href="/generalidades/nutricion.html"
+                class="block py-2 pb-0 text-white rounded md:bg-transparent md:text-white md:hover:text-[#d8f934] md:p-0 dark:text-white text-right"
+                >Generalidades</a
+              >
+              <ul class="md:hidden flex flex-col items-end p-0 pb-2">
+                <li>
+                  <a href="/generalidades/nutricion.html" class="text-lime-400 text-base">Nutrición</a>
+                </li>
+                <li>
+                  <a href="" class="text-lime-400 text-base">Entrenamiento</a>
+                </li>
+                <li>
+                  <a href="" class="text-lime-400 text-base">Psicología Deportiva</a>
+                </li>
+              </ul>
+            </li>
             <hr class="w-[50%] md:hidden" style="border: 1px solid #d8f934;">
           </ul>
         </div>
@@ -548,25 +557,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var menuButton = document.querySelector("[data-collapse-toggle='navbar-default']");
-        var menuList = document.getElementById("navbar-default");
-    
-        menuButton.addEventListener("click", function () {
-          menuList.classList.toggle("hidden");
-        });
-      });
-    </script>
-
-<script>
-  const navLinks = document.querySelector('.nav-links')
-  function onToggleMenu(e){
-      e.name = e.name === 'menu' ? 'close' : 'menu'
-      navLinks.classList.toggle('top-[7%]')
-  }
-</script>
+    <script src="script.js"></script>
     
   </body>
 </html>
