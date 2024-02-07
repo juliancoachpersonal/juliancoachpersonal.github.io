@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-text {
+    font-family: 'Pacifico', cursive;
+}
+
+.racing-type {
+    font-family: 'Racing Sans One', cursive;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
