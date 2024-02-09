@@ -3,7 +3,7 @@ import bgParallax from '../../assets/images/landing/bg_services.webp'
 export const Services = () => {
   return (
     <div id='services'>
-      <div className="py-8 mb-12 bg-fixed bg-center bg-cover custom-img" style={{background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(${bgParallax})`, backgroundSize: 'cover'}}>
+      <div className="py-8 mb-12 bg-center" style={{background: `linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(${bgParallax})`, backgroundSize: 'cover', backgroundAttachment: 'fixed'}}>
         <h2 className="text-center text-[#d8f934] text-5xl pb-6  uppercase racing-type">
           Un lugar que lo tiene todo
         </h2>
