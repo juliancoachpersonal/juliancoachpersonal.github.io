@@ -1,0 +1,43 @@
+{
+    "services": "Servicios",
+    "about_me": "Acerca de mí",
+    "brochure": "Brochure",
+    "generalities": {
+        "main": "Generalidades",
+        "nutrition": "Nutrición",
+        "train": "Entrenamiento",
+        "psychology": "Psicología Deportiva"
+    },
+    "contact_me": "Contáctame",
+    "products": {
+        "title": "Productos y Servicios",
+        "desc": "Obtén una experiencia de entrenamiento única con los mejores servicios a tu disposición",
+        "see_more": "Conoce más",
+        "components": {
+            "train": {
+                "title": "Componente Deportivo",
+                "desc": "Enfocado en el entrenamiento físico y la mejora del rendimiento atlético, incluye ejercicios personalizados, técnicas de entrenamiento avanzadas y programas de acondicionamiento."
+            },
+            "nutrition": {
+                "title": "Componente Nutricional Deportivo",
+                "desc": "Abarca planes alimenticios personalizados que complementan el régimen de entrenamiento, asegurando que el deportista reciba los nutrientes necesarios para la recuperación."
+            },
+            "psychology": {
+                "title": "Componente de Psicología Deportiva",
+                "desc": "Se centra en fortalecer la salud mental del deportista, incluyendo técnicas de visualización, manejo del estrés y desarrollo de la resiliencia."
+            },
+            "adventure": {
+                "title": "Componente de Aventura",
+                "desc": "Explora el mundo sin límites, descubriendo destinos sorprendentes y experiencias inolvidables. Aventúrate, explora y enriquece tu espíritu con cada viaje, creando recuerdos que durarán toda una vida."
+            },
+            "running": {
+                "title": "Componente de Running",
+                "desc": "Mejora tu entrenamiento de running, accediendo a artículos, videos, y técnicas para alcanzar tus objetivos. Entrena, progresa y supera tus límites con cada sesión, construyendo un camino de éxito."
+            },
+            "esports": {
+                "title": "Componente de E-Sports",
+                "desc": "Sumérgete en el emocionante mundo de los E-Sports. Vive la adrenalina de la competición y únete a una comunidad global sin moverte de casa. ¡Explora, compite y revitaliza tu energía con cada partida!"
+            }
+        }
+    }
+}
