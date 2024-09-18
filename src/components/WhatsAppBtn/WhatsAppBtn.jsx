@@ -7,7 +7,7 @@ export const WhatsAppBtn = () => {
         target="_blank"
         rel="noreferrer"
         title="Hola! Estoy en Línea."
-        className="fixed w-[60px] h-[60px] bottom-[10px] lg:bottom-[20px] right-[10px] lg:right-[20px] bg-[#25d366] text-white rounded-full text-center text-4xl z-50 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+        className="fixed w-[60px] h-[60px] bottom-[70px] lg:bottom-[80px] right-[10px] lg:right-[20px] bg-[#25d366] text-white rounded-full text-center text-4xl z-50 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
       >
         <i className="fa-brands fa-whatsapp mt-3"></i>
       </a>

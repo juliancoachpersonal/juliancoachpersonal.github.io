@@ -1,55 +1,69 @@
-import car1 from '../../assets/images/landing/carousel/carousel1.webp'
-import car2 from '../../assets/images/landing/carousel/carousel2.webp'
-import car3 from '../../assets/images/landing/carousel/carousel3.png'
+// import car1 from '../../assets/images/landing/carousel/carousel1.webp'
+// import car2 from '../../assets/images/landing/carousel/carousel2.webp'
+// import car3 from '../../assets/images/landing/carousel/carousel3.png'
 
-import { TECarousel, TECarouselItem } from "tw-elements-react"
+import hero1 from "../../assets/images/landing/hero/hero1.mp4";
+import hero2 from "../../assets/images/landing/hero/hero2.mp4";
+import hero3 from "../../assets/images/landing/hero/hero3.mp4";
+// import hero4 from "../../assets/images/landing/hero/hero4.mp4";
 
+import { TECarousel, TECarouselItem } from "tw-elements-react";
 
 export const Carousel = () => {
-
-    
   return (
     <div>
-
-
-<TECarousel showControls showIndicators ride="carousel">
+      <TECarousel showControls showIndicators ride="carousel">
         <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
           <TECarouselItem
             itemID={1}
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
           >
-            <img
+            <video autoPlay loop muted playsInline className="w-full">
+              <source src={hero1} type="video/mp4" />
+            </video>
+            {/* <img
               src={car1}
               className="block w-full"
               alt="..."
-            />
+            /> */}
           </TECarouselItem>
           <TECarouselItem
             itemID={2}
             className="relative float-left hidden -mr-[100%] w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
           >
-            <img
+            <video autoPlay loop muted playsInline className="w-full">
+              <source src={hero2} type="video/mp4" />
+            </video>
+            {/* <img
               src={car2}
               className="block w-full"
               alt="..."
-            />
+            /> */}
           </TECarouselItem>
           <TECarouselItem
             itemID={3}
             className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
           >
-            <img
+            <video autoPlay loop muted playsInline className="w-full">
+              <source src={hero3} type="video/mp4" />
+            </video>
+            {/* <img
               src={car3}
               className="block w-full"
               alt="..."
-            />
+            /> */}
           </TECarouselItem>
+          {/* <TECarouselItem
+            itemID={4}
+            className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
+          >
+            <video autoPlay loop muted playsInline className="w-full">
+              <source src={hero4} type="video/mp4" />
+            </video>
+            
+          </TECarouselItem> */}
         </div>
       </TECarousel>
-
-
-        
-
 
       {/* <div
         id="carouselExampleIndicators"

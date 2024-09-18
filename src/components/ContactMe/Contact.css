@@ -1,0 +1,16 @@
+.custom-shape-divider-top-1711817528 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711817528 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-top-1711817528 .shape-fill {
+    fill: #3C8274;
+}

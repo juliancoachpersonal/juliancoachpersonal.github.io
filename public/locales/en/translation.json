@@ -1,0 +1,45 @@
+{
+    "services": "Services",
+    "about_me": "About Me",
+    "brochure": "Brochure",
+    "generalities": {
+        "main": "Generalities",
+        "nutrition": "Nutrition",
+        "train": "Train",
+        "psychology": "Psychology"
+    },
+    "contact_me": "Contact Me",
+    "products": {
+        "title": "Products and Services",
+        "desc": "Gain a unique training experience with the best services at your disposal.",
+        "see_more": "See more",
+        "components": {
+            "train": {
+                "title": "Sports Training Component",
+                "desc": "Focused on physical training and enhancing athletic performance, it includes personalized exercises, advanced training techniques, and conditioning programs."
+            },
+            "nutrition": {
+                "title": "Sports Nutrition Component",
+                "desc": "Covers personalized meal plans that complement the training regimen, ensuring the athlete receives the necessary nutrients for recovery."
+            },
+            "psychology": {
+                "title": "Sports Psychology Component",
+                "desc": "Focused on strengthening the athlete's mental health, including visualization techniques, stress management, and resilience development."
+            },
+            "adventure": {
+                "title": "Adventure Component",
+                "desc": "Explore the world without limits, discovering surprising destinations and unforgettable experiences. Venture out, explore, and enrich your spirit with each journey, creating memories that last a lifetime."
+            },
+            "running": {
+                "title": "Running Component",
+                "desc": "Enhance your running training by accessing articles, videos, and techniques to achieve your goals. Train, progress, and push your limits with each session, building a path to success."
+            },
+            "esports": {
+                "title": "E-Sports Component",
+                "desc": "Immerse yourself in the exciting world of E-Sports. Feel the adrenaline of competition and join a global community from the comfort of your home. Explore, compete, and revitalize your energy with every match!"
+            }
+        }
+    }
+    
+    
+}

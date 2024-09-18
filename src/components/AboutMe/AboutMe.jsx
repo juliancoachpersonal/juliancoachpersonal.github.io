@@ -2,7 +2,7 @@ import about from "../../assets/images/landing/about.webp";
 
 export const AboutMe = () => {
   return (
-    <div id="about">
+    <div>
       <div className="flex flex-col px-[7%] md:px-[15%] py-5 lg:py-10">
         <p className="racing-type mb-3 lg:mb-0 text-center lg:text-left text-4xl sm:text-5xl text-[#394752]">
           Acerca de Mí
