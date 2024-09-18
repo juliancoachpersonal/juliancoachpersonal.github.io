@@ -39,5 +39,63 @@
                 "desc": "Sumérgete en el emocionante mundo de los E-Sports. Vive la adrenalina de la competición y únete a una comunidad global sin moverte de casa. ¡Explora, compite y revitaliza tu energía con cada partida!"
             }
         }
-    }
+    },
+    "about": {
+        "about1": "es un destacado Profesional en Deportes, con una formación y experiencia robusta en el ámbito deportivo, además de ser especialista en Inclusión, mostrando un firme compromiso con la integración y participación activa de todas las personas en el mundo del deporte.",
+        "about2": "Como emprendedor autónomo oriundo de Boyacá, Julian ha logrado impactar significativamente en la cultura deportiva local, demostrando su capacidad de innovación y liderazgo. Su dedicación a la evolución y al compromiso constante con la actualización de sus conocimientos lo posicionan como un profesional que siempre busca ofrecer lo mejor en su entorno laboral."
+    },
+    "plans": {
+        "title": "Planes y Precios",
+        "desc": "Elige el plan a tu medida",
+        "cop": "Precio en pesos (COP)",
+        "usd": "Precio en dólares (USD)",
+        "plan": {
+            "bronce": {
+                "name": "Plan Intermedio (Bronce)",
+                "desc": "Perfecto para quienes buscan un equilibrio entre costo y beneficio, y desean un progreso constante y sostenido."
+            },
+            "platinum": {
+                "name": "Plan Platino (Platinum)",
+                "desc": "Diseñado para quienes desean maximizar su rendimiento y alcanzar metas más ambiciosas."
+            },
+            "diamont": {
+                "name": "Plan Diamante (Diamont)",
+                "desc": "La opción más completa y exclusiva. Ideal para quienes buscan un enfoque integral y de alto rendimiento."
+            }
+        },
+        "recomended": "Recomendado",
+        "includes": "Incluye:",
+        "train": "sesiones de entrenamiento deportivo",
+        "nutrition": "sesiones de nutrición deportiva",
+        "psycho": "sesión de psicología deportiva",
+        "maintain": "sesiones de mantenimiento muscular (que puede ser rehabilitación muscular-articular, acuaterapia, aromaterapia, reflexología, cromoterapia)",
+        "more_info": "Encuentra más información",
+        "note": "Las sesiones pueden tomarse de forma virtual y/o presencial",
+        "payment": "Medios de Pago disponibles:",
+        "dudes_title": "¿Todavía te quedan dudas de cuál plan elegir?",
+        "dudes_text": "Puedo adaptar el plan de acuerdo con tus necesidades y presupuesto!",
+        "contact": "Pregúntame sin compromiso"
+    },
+    "maintain":{
+        "title": "MANTENIMIENTO MUSCULAR",
+        "return": "Regresar"
+    },
+    "methods": [
+            {
+                "name": "Aromaterapia",
+                "desc": "La aromaterapia utiliza aceites esenciales extraídos de plantas para promover la relajación, aliviar el estrés y mejorar el bienestar emocional. Se aplican mediante masajes, inhalación o difusión. Dentro de los beneficios, ayuda a reducir la ansiedad, mejorar el sueño y aliviar dolores musculares."
+            },
+            {
+                "name": "Acuaterapia (o hidroterapia)",
+                "desc": "Consiste en realizar ejercicios y terapia en el agua. El agua proporciona soporte y resistencia, lo que facilita la rehabilitación y el fortalecimiento muscular. Tiene beneficios como mejorar la movilidad, aliviar el dolor y favorecer la relajación."
+            },
+            {
+                "name": "Reflexología",
+                "desc": "Se basa en la estimulación de puntos específicos en los pies, manos o orejas para influir en órganos y sistemas del cuerpo. Cada zona refleja una parte del cuerpo. Tiene beneficios como aliviar el estrés, mejorar la circulación y equilibrar energéticamente."
+            },
+            {
+                "name": "Cromoterapia",
+                "desc": "Utiliza colores para influir en el estado emocional y físico. Se aplica mediante luces de diferentes tonalidades o visualización de colores. Tiene beneficios como promover la armonía, estimular la energía y ayudar en el tratamiento de trastornos específicos."
+            }
+        ]
 }
