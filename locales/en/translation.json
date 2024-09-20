@@ -97,7 +97,11 @@
                 "name": "Chromotherapy",
                 "desc": "Chromotherapy uses colors to influence emotional and physical states. It is applied through lights of different shades or by visualizing colors. Benefits include promoting harmony, stimulating energy, and aiding in the treatment of specific conditions."
             }
-        ]
+        ],
+    "faqs": {
+        "title": "Preguntas Frecuentes",
+        "desc": "Find the most frequently asked questions when purchasing a training plan."
+    }
     
     
 }

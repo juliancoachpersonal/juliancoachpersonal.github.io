@@ -97,5 +97,10 @@
                 "name": "Cromoterapia",
                 "desc": "Utiliza colores para influir en el estado emocional y físico. Se aplica mediante luces de diferentes tonalidades o visualización de colores. Tiene beneficios como promover la armonía, estimular la energía y ayudar en el tratamiento de trastornos específicos."
             }
-        ]
+        ],
+    "faqs": {
+        "title": "FQAs",
+        "desc": "Encuentra las preguntas más frecuentes al momento de adquirir un plan de entrenamiento."
+    }
+    
 }
