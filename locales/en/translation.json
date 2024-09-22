@@ -99,9 +99,33 @@
             }
         ],
     "faqs": {
-        "title": "Preguntas Frecuentes",
-        "desc": "Find the most frequently asked questions when purchasing a training plan."
+        "title": "FAQs",
+        "desc": "Find the most frequently asked questions when purchasing a training plan.",
+        "q1": "How is the initial evaluation and progress tracking conducted?",
+        "q2": "What kind of monitoring and support do you provide during the program?",
+        "q3": "How do you structure your personalized training plans?",
+        "q4": "Do you offer in-person training, online training, or both?",
+        "q5": "Besides conventional training, what other methods or types of training do you offer?",
+        "q6": "Can I contact you outside of training sessions?",
+        "q7": "How is the plan adjusted if my circumstances change during the program?",
+        "q8": "How is the payment made?",
+        "q9": "Are there any additional costs for equipment or specific facilities required for the training?"
+    },
+    "contactForm": {
+        "title": "Do you have additional questions?",
+        "desc": "Send me an email and I will get in touch with you!",
+        "name": "First Name",
+        "lastname": "Last Name",
+        "mail": "Email Address",
+        "phone": "Contact Phone",
+        "msg": "Message",
+        "obligatory": "Required fields",
+        "send": "Send Email",
+        "sending": "Sending email",
+        "confirm": "The email has been sent. I will contact you shortly."
+    },
+    "footer": {
+        "valoration": "Rate your experience to keep improving",
+        "copyright": "All rights reserved"
     }
-    
-    
 }

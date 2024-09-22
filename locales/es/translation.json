@@ -99,8 +99,34 @@
             }
         ],
     "faqs": {
-        "title": "FQAs",
-        "desc": "Encuentra las preguntas más frecuentes al momento de adquirir un plan de entrenamiento."
+        "title": "Preguntas Frecuentes",
+        "desc": "Encuentra las preguntas más frecuentes al momento de adquirir un plan de entrenamiento.",
+        "q1": "¿Cómo se realiza la evaluación inicial y el seguimiento del progreso?",
+        "q2": "¿Qué tipo de seguimiento y apoyo brindas durante el programa?",
+        "q3": "¿Cómo estructuras tus planes de entrenamiento personalizado?",
+        "q4": "¿Ofreces opciones de entrenamiento presencial, en línea o ambos?",
+        "q5": "Además del entrenamiento convencional, ¿qué otros métodos o tipos de entrenamiento ofreces?",
+        "q6": "¿Puedo comunicarme contigo fuera de las sesiones de entrenamiento?",
+        "q7": "¿Cómo se ajusta el plan si mis circunstancias cambian durante el programa?",
+        "q8": "¿Cómo se realiza el pago?",
+        "q9": "¿Hay algún costo adicional por equipo o instalaciones específicas necesarias para el entrenamiento?"
+    },
+    "contactForm": {
+        "title": "¿Tienes dudas adicionales?",
+        "desc": "Envíame un correo y me pondré en contacto contigo!",
+        "name": "Nombre",
+        "lastname": "Apellido",
+        "mail": "Correo electrónico",
+        "phone": "Teléfono de Contacto",
+        "msg": "Mensaje",
+        "obligatory": "Campos obligatorios",
+        "send": "Enviar correo",
+        "sending": "Enviando correo",
+        "confirm": "El correo se ha enviado. Pronto me pondré en contacto contigo"
+    },
+    "footer": {
+        "valoration": "Califica tu experiencia para seguir mejorando",
+        "copyright": "Todos los derechos reservados"
     }
     
 }
