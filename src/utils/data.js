@@ -127,7 +127,22 @@ export const muscle_desc = [
           ]
     },
     { 
-        id: "brazo",
+        id: "biceps",
+        img: biceps,
+        videos: ["https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719100654/Videos/train/brazo2.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719100530/Videos/train/brazo1.mp4"],
+        muscles: [
+            { name: "Bíceps braquial", desc: "Flexiona el codo y supina el antebrazo" },
+            { name: "Tríceps braquial", desc: "Extiende el codo" },
+            { name: "Braquial", desc: "Flexiona el codo" },
+            { name: "Coracobraquial", desc: "Flexiona y aduce el brazo" },
+            { name: "Ancóneo", desc: "Asiste en la extensión del codo" },
+            { name: "Supinador", desc: "Supina el antebrazo" },
+            { name: "Pronador redondo", desc: "Prona el antebrazo y flexiona el codo" },
+            { name: "Pronador cuadrado", desc: "Prona el antebrazo" }
+        ]
+    },
+    { 
+        id: "triceps",
         img: brazo,
         videos: ["https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719100654/Videos/train/brazo2.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719100530/Videos/train/brazo1.mp4"],
         muscles: [
@@ -228,6 +243,23 @@ export const muscle_desc = [
     { 
         id: "pierna",
         img: pierna,
+        videos: ["https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104106/Videos/train/pierna1.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104142/Videos/train/pierna2.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104179/Videos/train/pierna3.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719369870/Videos/train/pierna4.mp4"],
+        muscles: [
+            { name: "Piriforme", desc: "Se encuentra en la pared posterior de la pelvis y rota externamente la cadera" },
+            { name: "Obturador interno", desc: "Ubicado en la pared lateral de la pelvis, rota externamente la cadera" },
+            { name: "Elevador del ano", desc: "Compuesto por tres fascículos, eleva el ano y ayuda en la continencia" },
+            { name: "Isquiococcígeo", desc: "Forma parte del suelo de la pelvis y ayuda en la estabilización pélvica" },
+            { name: "Esfínter anal", desc: "Musculo que rodea el ano y ayuda en la continencia fecal" },
+            { name: "Esfínter uretral", desc: "Musculo que rodea la uretra y ayuda en la continencia urinaria" },
+            { name: "Transverso superficial del periné", desc: "Ayuda en la estabilización del periné" },
+            { name: "Transverso profundo del periné", desc: "Ayuda en la estabilización del periné y forma parte del diafragma urogenital" },
+            { name: "Isquiocavernoso", desc: "Ayuda en la erección del pene o clítoris" },
+            { name: "Bulbocavernoso", desc: "Contribuye a la función sexual y a la continencia urinaria" }
+          ] 
+    },
+    { 
+        id: "gemelos",
+        img: gemelos,
         videos: ["https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104106/Videos/train/pierna1.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104142/Videos/train/pierna2.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719104179/Videos/train/pierna3.mp4", "https://res.cloudinary.com/dvsrdhzyl/video/upload/v1719369870/Videos/train/pierna4.mp4"],
         muscles: [
             { name: "Piriforme", desc: "Se encuentra en la pared posterior de la pelvis y rota externamente la cadera" },
