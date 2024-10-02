@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Footer.css";
 
-export const Footer = () => {
+export const Footer = ( {t} ) => {
 
   const [clicked, setClicked] = useState([false, false, false, false, false]);
   const handleStarClick = (e, index) => {
@@ -34,7 +34,7 @@ export const Footer = () => {
         </div>
         <div className="container px-6 pt-6">
         <div className="py-3 flex justify-center gap-2 items-center">
-          <p className="font-medium text-center text-white">Califica tu experiencia para seguir mejorando</p>
+          <p className="font-medium text-center text-white">{t("footer.valoration")}</p>
             <i onClick={(e) => handleStarClick(e, 0)} className={`cursor-pointer fa-star text-lg ${clicked[0] ? 'fa-solid text-yellow-500':'fa-regular'}`}></i>
             <i onClick={(e) => handleStarClick(e, 1)} className={`cursor-pointer fa-star text-lg ${clicked[1] ? 'fa-solid text-yellow-500':'fa-regular'}`}></i>
             <i onClick={(e) => handleStarClick(e, 2)} className={`cursor-pointer fa-star text-lg ${clicked[2] ? 'fa-solid text-yellow-500':'fa-regular'}`}></i>
@@ -96,7 +96,7 @@ export const Footer = () => {
         <div className="w-full p-2 text-center bg-[#28574d]">
           <span className="font-bold text-md">© 2024 Copyright: </span> 
           <a className="text-white" href="#">
-            Todos los derechos reservados
+            {t("footer.copyright")}
           </a>
         </div>
       </footer>

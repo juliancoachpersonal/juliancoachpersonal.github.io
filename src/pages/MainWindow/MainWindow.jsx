@@ -17,10 +17,12 @@ import { PremiumPage } from "../PremiumPage/PremiumPage";
 import { Running } from "../Component/Running/Running";
 
 import { useTranslation } from "react-i18next";
+import { DetailRoutine } from "../DetailRoutine/DetailRoutine";
 
 export default function MainWindow() {
 
   const { t, i18n } = useTranslation();
+  // i18n.changeLanguage('es');
   return (
     <div>
       {/* <SocialBar /> */}
@@ -39,6 +41,7 @@ export default function MainWindow() {
           <Route path="/componentes/entrenamiento" element={ <Train/>} />
           <Route path="/componentes/running" element={ <Running/>} />
           <Route path="/componentes/entrenamiento/:muscle" element={ <MuscleDetails/>} />
+          <Route path="/componentes/entrenamiento/:muscle/:id" element={ <DetailRoutine/>} />
           <Route path="/opiniones" element={<OpinionPage />} />
           <Route path="/premium" element={<PremiumPage />} />
           <Route
@@ -49,7 +52,7 @@ export default function MainWindow() {
         </Routes>
       
 
-      <Footer />
+      <Footer t={t}/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import profile from "../../assets/images/profile/profile_def.png";
 
-export const About = () => {
+export const About = ({t}) => {
   return (
     <div
       id="about"
@@ -54,21 +54,12 @@ export const About = () => {
             <span className="text-xl font-bold text-[#ECFF46] group-hover:text-[#3c8274]">
               Julian E. Amaya{" "}
             </span>
-            es un destacado Profesional en Deportes, con una formación y
-            experiencia robusta en el ámbito deportivo, además de ser
-            especialista en Inclusión, mostrando un firme compromiso con la
-            integración y participación activa de todas las personas en el mundo
-            del deporte.
+            {t("about.about1")}
           </p>
         </div>
         <div className="bg-[#3c8274] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] px-5 py-8 rounded-lg group transition-all duration-500 hover:bg-[#e7e9ec] hover:cursor-pointer">
           <p className="text-white text-justify group-hover:text-black">
-            Como emprendedor autónomo oriundo de Boyacá, Julian ha logrado
-            impactar significativamente en la cultura deportiva local,
-            demostrando su capacidad de innovación y liderazgo. Su dedicación a
-            la evolución y al compromiso constante con la actualización de sus
-            conocimientos, lo posicionan como un profesional que siempre busca
-            ofrecer lo mejor en su entorno laboral
+          {t("about.about2")}
           </p>
         </div>
       </div>

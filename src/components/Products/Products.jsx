@@ -2,7 +2,7 @@ import { HashLink } from "react-router-hash-link";
 import "./Products.css";
 
 export const Products = ({t}) => {
-  console.log('Language', t)
+  
   return (
     <div id="services" className="bg-[#3c8274] mt-6">
       {/* Divider */}

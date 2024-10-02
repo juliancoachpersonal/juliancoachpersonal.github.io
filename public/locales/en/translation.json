@@ -39,7 +39,93 @@
                 "desc": "Immerse yourself in the exciting world of E-Sports. Feel the adrenaline of competition and join a global community from the comfort of your home. Explore, compete, and revitalize your energy with every match!"
             }
         }
+    },
+    "about": {
+        "about1": "is a distinguished Sports Professional with robust training and experience in the sports field, as well as being a specialist in Inclusion, demonstrating a strong commitment to the integration and active participation of all individuals in the world of sports.",
+        "about2": "As a self-employed entrepreneur from Boyacá, Julian has made a significant impact on the local sports culture, showcasing his capacity for innovation and leadership. His dedication to continuous growth and his unwavering commitment to staying updated with the latest knowledge position him as a professional who is always striving to offer the best in his field."
+    },
+    "plans": {
+        "title": "Plans and Pricing",
+        "desc": "Choose the plan that suits you",
+        "cop": "Price in Colombian Pesos (COP)",
+        "usd": "Price in US Dollars (USD)",
+        "plan": {
+            "bronce": {
+                "name": "Intermediate Plan (Bronze)",
+                "desc": "Perfect for those seeking a balance between cost and benefit, and aiming for steady, sustained progress."
+            },
+            "platinum": {
+                "name": "Platinum Plan",
+                "desc": "Designed for those who want to maximize their performance and achieve more ambitious goals."
+            },
+            "diamont": {
+                "name": "Diamond Plan",
+                "desc": "The most complete and exclusive option. Ideal for those seeking a comprehensive and high-performance approach."
+            }
+        },
+        "recomended": "Recomended",
+        "includes": "Includes:",
+        "train": " sports training sessions",
+        "nutrition": "sports nutrition sessions",
+        "psycho": "sports psychology session",
+        "maintain": "muscle maintenance sessions (which may include muscle-joint rehabilitation, hydrotherapy, aromatherapy, reflexology, chromotherapy)",
+        "more_info": "Find more information",
+        "note": "Sessions can be taken virtually and/or in person",
+        "payment": "Available Payment Methods:",
+        "dudes_title": "Still unsure which plan to choose?",
+        "dudes_text": "I can tailor the plan according to your needs and budget!",
+        "contact": "Contact me with no obligation"
+    },
+    "maintain": {
+        "title": "MUSCLE MAINTENANCE",
+        "return": "Return"
+    },
+    "methods": [
+            {
+                "name": "Aromatherapy",
+                "desc": "Aromatherapy uses essential oils extracted from plants to promote relaxation, relieve stress, and improve emotional well-being. These oils are applied through massages, inhalation, or diffusion. Benefits include reducing anxiety, improving sleep, and relieving muscle pain."
+            },
+            {
+                "name": "Aquatherapy (or hydrotherapy)",
+                "desc": "This involves performing exercises and therapy in water. Water provides support and resistance, which facilitates rehabilitation and muscle strengthening. Benefits include improved mobility, pain relief, and enhanced relaxation."
+            },
+            {
+                "name": "Reflexology",
+                "desc": "Reflexology is based on stimulating specific points on the feet, hands, or ears to influence organs and systems in the body. Each area reflects a part of the body. Benefits include stress relief, improved circulation, and energetic balance."
+            },
+            {
+                "name": "Chromotherapy",
+                "desc": "Chromotherapy uses colors to influence emotional and physical states. It is applied through lights of different shades or by visualizing colors. Benefits include promoting harmony, stimulating energy, and aiding in the treatment of specific conditions."
+            }
+        ],
+    "faqs": {
+        "title": "FAQs",
+        "desc": "Find the most frequently asked questions when purchasing a training plan.",
+        "q1": "How is the initial evaluation and progress tracking conducted?",
+        "q2": "What kind of monitoring and support do you provide during the program?",
+        "q3": "How do you structure your personalized training plans?",
+        "q4": "Do you offer in-person training, online training, or both?",
+        "q5": "Besides conventional training, what other methods or types of training do you offer?",
+        "q6": "Can I contact you outside of training sessions?",
+        "q7": "How is the plan adjusted if my circumstances change during the program?",
+        "q8": "How is the payment made?",
+        "q9": "Are there any additional costs for equipment or specific facilities required for the training?"
+    },
+    "contactForm": {
+        "title": "Do you have additional questions?",
+        "desc": "Send me an email and I will get in touch with you!",
+        "name": "First Name",
+        "lastname": "Last Name",
+        "mail": "Email Address",
+        "phone": "Contact Phone",
+        "msg": "Message",
+        "obligatory": "Required fields",
+        "send": "Send Email",
+        "sending": "Sending email",
+        "confirm": "The email has been sent. I will contact you shortly."
+    },
+    "footer": {
+        "valoration": "Rate your experience to keep improving",
+        "copyright": "All rights reserved"
     }
-    
-    
 }

@@ -8,7 +8,7 @@ import brochureSpecific from "../../assets/files/landing/brochure_usd.pdf";
 import "./Faqs.css";
 
 
-export const Faqs = () => {
+export const Faqs = ( { t } ) => {
   return (
     <div>
       <div
@@ -23,11 +23,10 @@ export const Faqs = () => {
           <div className="mx-auto px-5">
             <div className="flex flex-col items-center">
               <h2 className="text-center text-[#3c8274] text-5xl pb-6 font-bold">
-                Preguntas Frecuentes
+                {t("faqs.title")}
               </h2>
               <p className="text-neutral-500 text-center">
-                Encuentra las preguntas más frecuentes al momento de adquirir un
-                plan de entrenamiento
+                {t("faqs.desc")}
               </p>
             </div>
             <div className="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
@@ -35,8 +34,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      ¿Cómo se realiza la evaluación inicial y el seguimiento
-                      del progreso?
+                      {t("faqs.q1")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -67,8 +65,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      ¿Qué tipo de seguimiento y apoyo brindas durante el
-                      programa?
+                      {t("faqs.q2")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -102,8 +99,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      ¿Cómo estructuras tus planes de entrenamiento
-                      personalizado?
+                      {t("faqs.q3")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -160,8 +156,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      ¿Ofreces opciones de entrenamiento presencial, en línea o
-                      ambos?
+                      {t("faqs.q4")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -191,7 +186,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      Además del entrenamiento convencional, ¿qué otros métodos o tipos de entrenamiento ofreces?
+                      {t("faqs.q5")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -225,8 +220,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                      ¿Puedo comunicarme contigo fuera de las sesiones de
-                      entrenamiento?
+                      {t("faqs.q6")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -270,7 +264,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                    ¿Cómo se ajusta el plan si mis circunstancias cambian durante el programa?
+                      {t("faqs.q7")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -301,7 +295,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                    ¿Cómo se realiza el pago?
+                      {t("faqs.q8")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg
@@ -369,7 +363,7 @@ export const Faqs = () => {
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
                     <span className="font-bold text-[#3c8274]">
-                    ¿Hay algún costo adicional por equipo o instalaciones específicas necesarias para el entrenamiento?
+                      {t("faqs.q9")}
                     </span>
                     <span className="transition group-open:rotate-180">
                       <svg

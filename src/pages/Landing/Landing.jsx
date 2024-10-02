@@ -22,11 +22,11 @@ export function Landing({t}){
             {/* <Hero></Hero> */}
             <Carousel></Carousel>
             <Products t={t}></Products>
-            <About></About>
-            <Pricing></Pricing>
+            <About t={t}></About>
+            <Pricing t={t}></Pricing>
             {/* <Testimonials></Testimonials> */}
-            <Faqs></Faqs>
-            <ContactMe></ContactMe>
+            <Faqs t={t}></Faqs>
+            <ContactMe t={t}></ContactMe>
             {/* <Services></Services>
             <PricePlan></PricePlan> */}
             <WhatsAppBtn></WhatsAppBtn>

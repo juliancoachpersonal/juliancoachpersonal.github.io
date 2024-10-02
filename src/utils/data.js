@@ -36,6 +36,8 @@ import paleo from '../assets/images/components/nutrition/paleo.jpg'
 // import cuello from "../assets/images/components/train/cuello.jpg";
 import hombro from "../assets/images/components/train/hombro.jpg";
 import brazo from "../assets/images/components/train/brazo.jpg";
+import biceps from "../assets/images/components/train/biceps.jpg";
+// import triceps from "../assets/images/components/train/triceps.jpg";
 import mano1 from "../assets/images/components/train/mano1.jpg";
 import espalda from "../assets/images/components/train/espalda2.jpg";
 import pecho from "../assets/images/components/train/pecho.jpg";
@@ -43,6 +45,7 @@ import abdomen from "../assets/images/components/train/abdomen.jpg";
 import pelvis from "../assets/images/components/train/pelvis.jpg";
 // import mano2 from "../assets/images/components/train/mano2.jpg";
 import pierna from "../assets/images/components/train/pierna.jpg";
+import gemelos from "../assets/images/components/train/gemelos.jpg";
 
 
 import running1 from "../assets/images/components/running/running1.jpg";
@@ -53,14 +56,17 @@ import running2 from "../assets/images/components/running/running2.jpg";
 export const muscles = [
     // { src: cara, alt: "cara", label: "Cara" },
     // { src: cuello, alt: "cuello", label: "Cuello" },
-    { src: hombro, alt: "hombro", label: "Hombro" },
-    { src: brazo, alt: "brazo", label: "Brazo" },
-    // { src: mano1, alt: "mano", label: "Mano" },
-    { src: espalda, alt: "espalda", label: "Espalda" },
     { src: pecho, alt: "pecho", label: "Pecho" },
-    // { src: abdomen, alt: "abdomen", label: "Abdomen" },
+    { src: espalda, alt: "espalda", label: "Espalda" },
+    { src: hombro, alt: "hombro", label: "Hombros" },
+    { src: biceps, alt: "biceps", label: "Bíceps" },
+    { src: brazo, alt: "triceps", label: "Tríceps" },
+    // { src: brazo, alt: "brazo", label: "Brazo" },
+    // { src: mano1, alt: "mano", label: "Mano" },
+    { src: abdomen, alt: "abdomen", label: "Abdomen" },
     // { src: pelvis, alt: "pelvis", label: "Pelvis" },
-    { src: pierna, alt: "pierna", label: "Pierna" }
+    { src: pierna, alt: "pierna", label: "Pierna" },
+    { src: gemelos, alt: "gemelos", label: "Gemelos" }
   ]
 
 export const muscle_desc = [
@@ -237,6 +243,10 @@ export const muscle_desc = [
           ] 
     }
 ]
+
+
+
+
 
 
 // COMPONENTE DE RUNNING

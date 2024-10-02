@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 
 import './Contact.css'
 
-export const ContactMe = () => {
+export const ContactMe = ( {t} ) => {
   const [stateSend, setStateSend] = useState(false);
   const [success, setSuccess] = useState(false);
 
@@ -57,10 +57,10 @@ export const ContactMe = () => {
         </svg>
       </div>
       <h2 className="py-6 text-5xl text-center text-[#3c8274] font-bold">
-        ¿Tienes dudas adicionales?
+        {t("contactForm.title")}
       </h2>
       <p className="text-center text-neutral-600 ">
-        Envíame un correo y me pondré en contacto contigo!
+        {t("contactForm.desc")}
       </p>
       <div className="flex justify-center ">
         <form
@@ -75,7 +75,7 @@ export const ContactMe = () => {
                   htmlFor="first-name"
                   className="block text-sm font-semibold leading-6 text-[#3c8274] cursor-pointer"
                 >
-                  Nombre *
+                  {t("contactForm.name")} *
                 </label>
                 <div>
                   <input
@@ -96,7 +96,7 @@ export const ContactMe = () => {
                   htmlFor="last-name"
                   className="block text-sm font-semibold leading-6 text-[#3c8274]  cursor-pointer"
                 >
-                  Apellido
+                  {t("contactForm.lastname")}
                 </label>
                 <div>
                   <input
@@ -117,7 +117,7 @@ export const ContactMe = () => {
                   htmlFor="email"
                   className="block text-sm font-semibold leading-6 text-[#3c8274] cursor-pointer"
                 >
-                  Correo electrónico *
+                  {t("contactForm.mail")} *
                 </label>
                 <div>
                   <input
@@ -138,7 +138,7 @@ export const ContactMe = () => {
                   htmlFor="phone"
                   className="block text-sm font-semibold leading-6 text-[#3c8274] cursor-pointer"
                 >
-                  Teléfono de contacto
+                  {t("contactForm.phone")}
                 </label>
                 <div>
                   <input
@@ -159,7 +159,7 @@ export const ContactMe = () => {
                   htmlFor="message"
                   className="block text-sm font-semibold leading-6 text-[#3c8274] cursor-pointer"
                 >
-                  Mensaje *
+                  {t("contactForm.msg")} *
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -175,7 +175,7 @@ export const ContactMe = () => {
                 </div>
               </div>
             </div>
-            <p className="mt-2 text-neutral-800">* Campos obligatorios</p>
+            <p className="mt-2 text-neutral-800">* {t("contactForm.obligatory")}</p>
             <div className="mt-8 flex justify-end">
               <button
                 disabled={!(name && email && message)}
@@ -195,13 +195,13 @@ export const ContactMe = () => {
                   </div>
                 )}
 
-                {!stateSend ? "Enviar correo" : "Enviando correo"}
+                {!stateSend ? `${t("contactForm.send")}` : `${t("contactForm.sending")}`}
               </button>
             </div>
 
             {success && (
               <p className="mt-3 font-bold text-center text-green-500">
-                El correo se ha enviado. Pronto me pondré en contacto contigo
+                {t("contactForm.confirm")}
                 &#128512;
               </p>
             )}

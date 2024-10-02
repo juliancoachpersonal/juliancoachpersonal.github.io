@@ -21,10 +21,6 @@ export const Train = () => {
         Encuentra los mejores recursos y consejos para mantenerte en forma!
       </h3>
 
-      <div className="hidden md:flex justify-center mb-8">
-        <iframe width="1110" height="740" src="https://www.zygotebody.com" frameBorder="0" ></iframe>
-      </div>
-
       <div>
         <div className="flex gap-6 flex-wrap justify-center">
           {list_muscles.map((item, index) => (
@@ -47,6 +43,10 @@ export const Train = () => {
             </HashLink>
           ))}
         </div>
+      </div>
+
+      <div className="hidden md:flex justify-center mt-16">
+        <iframe width="1110" height="740" src="https://www.zygotebody.com" frameBorder="0" ></iframe>
       </div>
     </div>
   );

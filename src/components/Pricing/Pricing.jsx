@@ -8,10 +8,14 @@ import paypal from "../../assets/images/landing/icons/paypal.png";
 import daviplata from "../../assets/images/landing/icons/daviplata.png";
 import approve from "../../assets/images/prices/approve.webp";
 
-export const Pricing = () => {
+export const Pricing = ({ t }) => {
   const [isChecked, setIsChecked] = useState(true);
 
   const [isOpen, setIsOpen] = useState(false);
+
+  const methods = t("methods", { returnObjects: true });
+  console.log("methods: ", methods);
+  
 
   const openModal = () => {
     setIsOpen(true);
@@ -58,66 +62,31 @@ export const Pricing = () => {
 
             <div className="p-6 px-8 pt-0 text-center overflow-y-auto max-h-82 md:max-h-90">
               <h3 className="text-[#3c8274] font-bold mb-2 text-2xl">
-                MANTENIMIENTO MUSCULAR
+                {t("maintain.title")}
               </h3>
               <i className="fa-solid fa-notes-medical text-[#3c8274] text-6xl"></i>
               <div className="mt-8">
-                <h5 className="text-left text-[#3c8274] font-bold mt-4">
-                  Aromaterapia
-                </h5>
-                <p className="text-justify">
-                  La aromaterapia utiliza aceites esenciales extraídos de
-                  plantas para promover la relajación, aliviar el estrés y
-                  mejorar el bienestar emocional. Se aplican mediante masajes,
-                  inhalación o difusión.
-                </p>
-                <p className="text-justify">
-                  Dentro de los beneficios, ayuda a reducir la ansiedad, mejorar
-                  el sueño y aliviar dolores musculares.
-                </p>
-                <h5 className="text-left text-[#3c8274] font-bold mt-4">
-                  Acuaterapia (o hidroterapia)
-                </h5>
-                <p className="text-justify">
-                  Consiste en realizar ejercicios y terapia en el agua. El agua
-                  proporciona soporte y resistencia, lo que facilita la
-                  rehabilitación y el fortalecimiento muscular.
-                </p>
-                <p className="text-justify">
-                  Tiene beneficios como mejorar la movilidad, aliviar el dolor y
-                  favorecer la relajación.
-                </p>
-                <h5 className="text-left text-[#3c8274] font-bold mt-4">
-                  Reflexología
-                </h5>
-                <p className="text-justify">
-                  Se basa en la estimulación de puntos específicos en los pies,
-                  manos o orejas para influir en órganos y sistemas del cuerpo.
-                  Cada zona refleja una parte del cuerpo.
-                </p>
-                <p className="text-justify">
-                  Tiene beneficios como aliviar el estrés, mejorar la
-                  circulación y equilibrar energéticamente.
-                </p>
-                <h5 className="text-left text-[#3c8274] font-bold mt-4">
-                  Cromoterapia
-                </h5>
-                <p className="text-justify">
-                  Utiliza colores para influir en el estado emocional y físico.
-                  Se aplica mediante luces de diferentes tonalidades o
-                  visualización de colores.
-                </p>
-                <p className="text-justify">
-                  Tiene beneficios como promover la armonía, estimular la
-                  energía y ayudar en el tratamiento de trastornos específicos.
-                </p>
+                {methods.map((method, index) => (
+                  <div key={index} className="mb-8">
+                    
+                    <h5 className="text-left text-[#3c8274] font-bold mt-4">
+                      {method.name}
+                    </h5>
+
+                    {
+                      <p className="text-justify">
+                        {method.desc}
+                      </p>
+                    }
+                  </div>
+                ))}
               </div>
 
               <button
                 onClick={closeModal}
                 className="text-white text-xl mt-2 bg-[#3c8274] hover:bg-[#4a9e8d] focus:ring-4 focus:ring-red-300 font-medium rounded-lg inline-flex items-center px-12 py-2.5 text-center "
               >
-                Regresar
+                {t("maintain.return")}
               </button>
             </div>
           </div>
@@ -139,14 +108,14 @@ export const Pricing = () => {
       </div>
       <div className="py-8">
         <h2 className="text-white text-center text-5xl font-bold">
-          Planes y Precios
+          {t("plans.title")}
         </h2>
       </div>
 
       <div className="px-4">
         <div>
           <p className="max-w-3xl mx-auto text-xl text-center text-white">
-            Elige el plan a tu medida
+            {t("plans.desc")}
           </p>
         </div>
 
@@ -157,7 +126,7 @@ export const Pricing = () => {
                 !isChecked ? "font-bold text-yellow-300" : "text-white"
               } text-lg`}
             >
-              Precio en pesos (COP)
+              {t("plans.cop")}
             </span>
             <input
               type="checkbox"
@@ -171,19 +140,17 @@ export const Pricing = () => {
                 isChecked ? "font-bold text-yellow-300" : "text-white"
               } text-lg`}
             >
-              Precio en dólares (USD)
+              {t("plans.usd")}
             </span>
           </label>
         </div>
 
         <div className="mt-10 flex justify-center flex-wrap gap-8 ">
-          
-
           <div className="relative p-8  bg-gray-200 rounded-2xl shadow-sm flex flex-col md:max-w-[30%]">
             <div className="flex-1">
               <div className="flex justify-between items-center">
                 <h3 className="text-4xl font-semibold ">
-                  Plan Intermedio (Bronce)
+                  {t("plans.plan.bronce.name")}
                 </h3>
                 <span className="text-3xl">🥉</span>
               </div>
@@ -192,13 +159,10 @@ export const Pricing = () => {
               </p> */}
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$390.000" : "111 USD"}
+                  {!isChecked ? "$680.000" : "164 USD"}
                 </span>
               </p>
-              <p className="mt-6 text-justify">
-                Perfecto para quienes buscan un equilibrio entre costo y
-                beneficio, y desean un progreso constante y sostenido.
-              </p>
+              <p className="mt-6 text-justify">{t("plans.plan.bronce.desc")}</p>
               <p className="mt-2 text-justify">Incluye:</p>
               <ul role="list" className="mt-6 space-y-3">
                 <li className="flex">
@@ -217,9 +181,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    6 sesiones de entrenamiento deportivo
-                  </span>
+                  <span className="ml-3 ">6 {t("plans.train")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -237,7 +199,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">1 sesión de nutrición deportiva</span>
+                  <span className="ml-3 ">1 {t("plans.nutrition")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -255,9 +217,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    1 sesión de psicología deportiva
-                  </span>
+                  <span className="ml-3 ">1 {t("plans.psycho")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -276,26 +236,22 @@ export const Pricing = () => {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                   <span className="ml-3 text-justify">
-                    1 sesión de mantenimiento muscular (que puede ser
-                    rehabilitación muscular-articular, acuaterapia,
-                    aromaterapia, reflexología, cromoterapia).{" "}
+                    1 {t("plans.maintain")}.{" "}
                     <button
                       onClick={openModal}
                       className="inline text-emerald-500 mx-auto mb-4 text-sm font-semibold"
                     >
-                      Encuentra más información
+                      {t("plans.more_info")}
                     </button>
                   </span>
                 </li>
               </ul>
 
-              <p className="mt-6 md:mt-12 text-gray-500">
-                * Las sesiones pueden tomarse de forma virtual y/o presencial
-              </p>
+              <p className="mt-6 md:mt-12 text-gray-500">* {t("plans.note")}</p>
             </div>
 
             <p className="text-emerald-700 font-bold mt-6">
-              Medios de Pago disponibles:
+              {t("plans.payment")}
             </p>
 
             <div className="flex justify-center w-full flex-wrap">
@@ -344,24 +300,23 @@ export const Pricing = () => {
             <div className="flex-1">
               <div className="flex justify-between items-center">
                 <h3 className="text-4xl font-semibold ">
-                  Plan Platino (Platinum)
+                  {t("plans.plan.platinum.name")}
                 </h3>
                 <span className="text-3xl">🥈</span>
               </div>
 
               <p className="absolute top-0 py-1.5 px-4 bg-emerald-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2">
-                Recomendado
+                {t("plans.recomended")}
               </p>
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$575.000" : "164 USD"}
+                  {!isChecked ? "$995.000" : "240 USD"}
                 </span>
               </p>
               <p className="mt-6 text-justify">
-                Diseñado para quienes desean maximizar su rendimiento y alcanzar
-                metas más ambiciosas.
+                {t("plans.plan.platinum.desc")}
               </p>
-              <p className="mt-2 text-justify">Incluye:</p>
+              <p className="mt-2 text-justify">{t("plans.included")}</p>
               <ul role="list" className="mt-6 space-y-3">
                 <li className="flex">
                   <svg
@@ -379,9 +334,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    8 sesiones de entrenamiento deportivo
-                  </span>
+                  <span className="ml-3 ">8 {t("plans.train")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -399,9 +352,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    3 sesiones de nutrición deportiva
-                  </span>
+                  <span className="ml-3 ">3 {t("plans.nutrition")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -420,26 +371,22 @@ export const Pricing = () => {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                   <span className="ml-3 text-justify">
-                    2 sesiones de mantenimiento muscular (que puede ser
-                    rehabilitación muscular-articular, acuaterapia,
-                    aromaterapia, reflexología, cromoterapia){" "}
+                    2 {t("plans.maintain")}.{" "}
                     <button
                       onClick={openModal}
                       className="inline text-emerald-500 mx-auto mb-4 text-sm font-semibold"
                     >
-                      Encuentra más información
+                      {t("plans.more_info")}
                     </button>
                   </span>
                 </li>
               </ul>
 
-              <p className="mt-6 md:mt-12 text-gray-500">
-                * Las sesiones pueden tomarse de forma virtual y/o presencial
-              </p>
+              <p className="mt-6 md:mt-12 text-gray-500">* {t("plans.note")}</p>
             </div>
 
             <p className="text-emerald-700 font-bold mt-6">
-              Medios de Pago disponibles:
+              {t("plans.payment")}
             </p>
 
             <div className="flex justify-center w-full flex-wrap">
@@ -486,9 +433,9 @@ export const Pricing = () => {
 
           <div className="relative p-8  bg-gray-200 rounded-2xl shadow-sm flex flex-col md:max-w-[30%]">
             <div className="flex-1">
-            <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center">
                 <h3 className="text-4xl font-semibold ">
-                Plan Diamante (Diamont)
+                  {t("plans.plan.diamont.name")}
                 </h3>
                 <span className="text-3xl">💎</span>
               </div>
@@ -497,14 +444,13 @@ export const Pricing = () => {
               </p> */}
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$840.000" : "240 USD"}
+                  {!isChecked ? "$2'450.000" : "590 USD"}
                 </span>
               </p>
               <p className="mt-6 text-justify">
-                La opción más completa y exclusiva. Ideal para quienes buscan un
-                enfoque integral y de alto rendimiento.
+                {t("plans.plan.diamont.desc")}
               </p>
-              <p className="mt-2 text-justify">Incluye:</p>
+              <p className="mt-2 text-justify">{t("plans.included")}</p>
               <ul role="list" className="mt-6 space-y-3">
                 <li className="flex">
                   <svg
@@ -522,9 +468,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    12 sesiones de entrenamiento deportivo
-                  </span>
+                  <span className="ml-3 ">12 {t("plans.train")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -542,9 +486,7 @@ export const Pricing = () => {
                   >
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span className="ml-3 ">
-                    4 sesiones de nutrición deportiva
-                  </span>
+                  <span className="ml-3 ">4 {t("plans.nutrition")}</span>
                 </li>
                 <li className="flex">
                   <svg
@@ -563,26 +505,22 @@ export const Pricing = () => {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                   <span className="ml-3 text-justify">
-                    3 sesiones de mantenimiento muscular (que puede ser
-                    rehabilitación muscular-articular, acuaterapia,
-                    aromaterapia, reflexología, cromoterapia){" "}
+                    3 {t("plans.maintain")}.{" "}
                     <button
                       onClick={openModal}
                       className="inline text-emerald-500 mx-auto mb-4 text-sm font-semibold"
                     >
-                      Encuentra más información
+                      {t("plans.more_info")}
                     </button>
                   </span>
                 </li>
               </ul>
 
-              <p className="mt-6 md:mt-12 text-gray-500">
-                * Las sesiones pueden tomarse de forma virtual y/o presencial
-              </p>
+              <p className="mt-6 md:mt-12 text-gray-500">* {t("plans.note")}</p>
             </div>
 
             <p className="text-emerald-700 font-bold mt-6">
-              Medios de Pago disponibles:
+              {t("plans.payment")}
             </p>
 
             <div className="flex justify-center w-full flex-wrap">
@@ -629,11 +567,9 @@ export const Pricing = () => {
         </div>
 
         <p className="text-center text-white text-lg font-bold mt-8">
-          ¿Todavía te quedan dudas de cuál plan elegir?
+          {t("plans.dudes_title")}
         </p>
-        <p className="text-center text-white">
-          Puedo adaptar el plan de acuerdo con tus necesidades y presupuesto!
-        </p>
+        <p className="text-center text-white">{t("plans.dudes_text")}</p>
         <div className="flex justify-center">
           <img className="w-[60%] md:w-[10%]" src={approve} alt="Aprobacion" />
         </div>
@@ -646,7 +582,7 @@ export const Pricing = () => {
             // download="brochure_servicios.pdf"
           >
             <i className="fa-brands fa-whatsapp px-3 text-3xl"></i>
-            <span>Pregúntame sin compromiso</span>
+            <span>{t("plans.contact")}</span>
           </a>
         </div>
       </div>
@@ -654,13 +590,14 @@ export const Pricing = () => {
   );
 };
 
-
-
-              {/* <p className="absolute top-0 py-1.5 px-4 bg-emerald-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2">
+{
+  /* <p className="absolute top-0 py-1.5 px-4 bg-emerald-500 text-white rounded-full text-xs font-semibold uppercase tracking-wide  transform -translate-y-1/2">
                 Descuento en tu primera sesión
-              </p> */}
+              </p> */
+}
 
-{/* <div className="relative p-8  bg-gray-200 rounded-2xl shadow-sm flex flex-col md:max-w-[30%]">
+{
+  /* <div className="relative p-8  bg-gray-200 rounded-2xl shadow-sm flex flex-col md:max-w-[30%]">
             <div className="flex-1">
               <div className="flex justify-between items-center">
                 <h3 className="text-4xl font-semibold ">
@@ -789,4 +726,5 @@ export const Pricing = () => {
                 />
               </a>
             </div>
-          </div> */}
+          </div> */
+}

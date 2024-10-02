@@ -220,9 +220,9 @@ export const Navbar = ({t, i18n }) => {
                         <img 
                       src={locales[locale].flag} 
                       alt="flag" 
-                      className="w-6 h-6 mr-2 rounded-full" 
+                      className="mr-6 rounded-full" 
                     />
-                        {locales[locale].title}
+                        {/* {locales[locale].title} */}
                       </button>
                     </li>
                   </div>
