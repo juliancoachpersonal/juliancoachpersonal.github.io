@@ -9,6 +9,19 @@ import abdomen from "../assets/images/components/train/abdomen.jpg";
 import pierna from "../assets/images/components/train/pierna.jpg";
 import gemelos from "../assets/images/components/train/gemelos.jpg";
 
+import pecs_1 from "../assets/images/components/train/pecs/1.png";
+import pecs_2 from "../assets/images/components/train/pecs/2.png";
+import pecs_3 from "../assets/images/components/train/pecs/3.png";
+import pecs_4 from "../assets/images/components/train/pecs/4.png";
+import pecs_5 from "../assets/images/components/train/pecs/5.png";
+import pecs_6 from "../assets/images/components/train/pecs/6.png";
+import pecs_7 from "../assets/images/components/train/pecs/7.png";
+import pecs_8 from "../assets/images/components/train/pecs/8.png";
+import pecs_9 from "../assets/images/components/train/pecs/9.png";
+import pecs_10 from "../assets/images/components/train/pecs/10.png";
+import pecs_11 from "../assets/images/components/train/pecs/11.png";
+import pecs_12 from "../assets/images/components/train/pecs/12.png";
+
 // Rutina de Ejercicios
 export const routines = [
   {
@@ -18,6 +31,7 @@ export const routines = [
       {
         id: 1,
         name: "Press Banca con Barra",
+        image: pecs_1,
         position: [
           "Acuéstate en un banco plano con los pies firmemente apoyados en el suelo.",
           "Asegúrate de que tu espalda, cabeza y glúteos estén en contacto con el banco en todo momento.",
@@ -59,6 +73,7 @@ export const routines = [
       {
         id: 2,
         name: "Press Banca Inclinado con Mancuernas",
+        image: pecs_2,
         position: [
           "Ajusta el banco a una inclinación de aproximadamente 30-45 grados.",
           "Siéntate en el banco y coloca las mancuernas sobre tus muslos.",
@@ -107,6 +122,7 @@ export const routines = [
       {
         id: 3,
         name: "Aperturas en Máquina Peck Deck",
+        image: pecs_3,
         position: [
           "Siéntate en la máquina Peck Deck con la espalda bien apoyada en el respaldo.",
           "Coloca los antebrazos contra las almohadillas, con los codos a la altura de los hombros.",
@@ -139,54 +155,8 @@ export const routines = [
       },
       {
         id: 4,
-        name: "Aperturas con Mancuernas",
-        position: [
-          "Acuéstate en un banco plano con una mancuerna en cada mano.",
-          "Mantén los pies firmemente apoyados en el suelo y la espalda en contacto con el banco.",
-          "Extiende los brazos hacia arriba con una ligera flexión en los codos, las palmas de las manos mirándose entre sí.",
-        ],
-        execution: [
-          "Baja las mancuernas en un arco amplio hacia los lados, manteniendo una ligera flexión en los codos.",
-          "Detente cuando las mancuernas estén a la altura del pecho o ligeramente por debajo.",
-          "Vuelve a levantar las mancuernas hacia arriba, juntándolas sobre tu pecho.",
-        ],
-        advices: [
-          "Mantén el control durante todo el movimiento para evitar lesiones en los hombros.",
-          "No bajes las mancuernas demasiado, ya que esto puede poner tensión excesiva en los hombros.",
-          "Mantén una respiración constante y controlada.",
-        ],
-        muscles: [
-          {
-            name: "Pectoral mayor",
-            desc: "Trabaja principalmente la parte media y externa del pecho.",
-          },
-          {
-            name: "Deltoides anterior",
-            desc: "Ayuda en el movimiento de apertura.",
-          },
-          {
-            name: "Bíceps braquial",
-            desc: "Asiste en la estabilización del brazo.",
-          },
-        ],
-        benefits: [
-          {
-            name: "Desarrollo del pecho",
-            desc: "Ambos ejercicios son excelentes para desarrollar la masa y definición del pecho.",
-          },
-          {
-            name: "Variedad en el entrenamiento",
-            desc: "Añadir variedad a tu rutina de pecho puede ayudar a evitar el estancamiento y promover un desarrollo muscular equilibrado.",
-          },
-          {
-            name: "Mejora de la fuerza",
-            desc: "Fortalecer los músculos del pecho puede mejorar el rendimiento en otros ejercicios de empuje.",
-          },
-        ],
-      },
-      {
-        id: 5,
         name: "Cruce de Poleas",
+        image: pecs_4,
         position: [
           "Colócate en el centro de una máquina de poleas con las poleas ajustadas a una altura alta.",
           "Sujeta las asas de las poleas con las palmas hacia abajo.",
@@ -233,8 +203,9 @@ export const routines = [
         ],
       },
       {
-        id: 6,
+        id: 5,
         name: "Press de Banca Inclinado con Barra",
+        image: pecs_5,
         position: [
           "Ajusta el banco a una inclinación de aproximadamente 30-45 grados.",
           "Acuéstate en el banco con los pies firmemente apoyados en el suelo.",
@@ -281,8 +252,9 @@ export const routines = [
         ],
       },
       {
-        id: 7,
+        id: 6,
         name: "Press de Banca Inclinado con Mancuernas",
+        image: pecs_6,
         position: [
           "Ajusta el banco a una inclinación de aproximadamente 30-45 grados.",
           "Siéntate en el banco y coloca las mancuernas sobre tus muslos.",
@@ -329,8 +301,9 @@ export const routines = [
         ],
       },
       {
-        id: 8,
+        id: 7,
         name: "Aperturas con Mancuernas",
+        image: pecs_7,
         position: [
           "Acuéstate en un banco plano con una mancuerna en cada mano.",
           "Mantén los pies firmemente apoyados en el suelo y la espalda en contacto con el banco.",
@@ -376,8 +349,9 @@ export const routines = [
         ],
       },
       {
-        id: 9,
+        id: 8,
         name: "Aperturas Inclinadas con Mancuernas",
+        image: pecs_8,
         position: [
           "Ajusta el banco a una inclinación de aproximadamente 30-45 grados.",
           "Siéntate en el banco y coloca las mancuernas sobre tus muslos.",
@@ -423,8 +397,9 @@ export const routines = [
         ],
       },
       {
-        id: 10,
+        id: 9,
         name: "Press de Banca en Máquina Sentado",
+        image: pecs_9,
         position: [
           "Ajusta el asiento de la máquina para que los agarres estén alineados con la parte media de tu pecho.",
           "Siéntate con la espalda bien apoyada en el respaldo y los pies firmemente en el suelo.",
@@ -470,8 +445,9 @@ export const routines = [
         ],
       },
       {
-        id: 11,
+        id: 10,
         name: "Press de Banca Declinado con Barra",
+        image: pecs_10,
         position: [
           "Ajusta el banco a una declinación de aproximadamente 15-30 grados.",
           "Acuéstate en el banco con los pies firmemente asegurados bajo los rodillos para evitar deslizarte.",
@@ -519,8 +495,9 @@ export const routines = [
         ],
       },
       {
-        id: 12,
+        id: 11,
         name: "Press de Banca Declinado con Mancuernas",
+        image: pecs_11,
         position: [
           "Ajusta el banco a una declinación de aproximadamente 15-30 grados.",
           "Siéntate en el banco y coloca las mancuernas sobre tus muslos.",
@@ -566,8 +543,9 @@ export const routines = [
         ],
       },
       {
-        id: 13,
+        id: 12,
         name: "Flexiones",
+        image: pecs_12,
         position: [
           "Colócate en el suelo con las manos apoyadas un poco más separadas que el ancho de los hombros.",
           "Extiende las piernas hacia atrás, apoyando los dedos de los pies en el suelo.",

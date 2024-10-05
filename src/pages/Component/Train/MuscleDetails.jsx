@@ -61,7 +61,7 @@ export const MuscleDetails = () => {
                       <div key={index} className="mb-8 flex flex-col overflow-hidden shadow-xl">
                       {/* <a href="/blog-post"> */}
                         <div className="shrink-0">
-                          <img className="h-48 w-full rounded-lg object-cover" src="/images/placeholders/original/neon-1.webp" alt="" />
+                          <img src={routine.image} alt={routine.name} className="w-100"/>
                         </div>
                       {/* </a> */}
                       <div className="flex flex-1 flex-col justify-between p-4">
@@ -76,7 +76,7 @@ export const MuscleDetails = () => {
                           {/* </a> */}
                           {/* <a href="#" className="mt-2 block space-y-6"> */}
                           <div className="mt-2 mb-4 block text-justify">
-                          <h3 className="text-xl font-semibold leading-none tracking-tighter text-gray-600 my-4">
+                          <h3 className="text-xl font-semibold leading-none tracking-tighter text-[#3c8274] my-4">
                               { routine.name }
                             </h3>
                             <p className="text-md font-normal text-gray-500">

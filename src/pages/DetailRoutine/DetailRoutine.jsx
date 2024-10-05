@@ -20,6 +20,8 @@ export const DetailRoutine = () => {
           {muscleRoutine.name}
         </h2>
 
+        <img src={muscleRoutine.image} alt={muscleRoutine.name} className="w-[50%] mx-auto"/>
+
         <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
           <div className="flex items-center space-x-4 mb-3">
             <i className="fa-solid fa-person-rays text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
