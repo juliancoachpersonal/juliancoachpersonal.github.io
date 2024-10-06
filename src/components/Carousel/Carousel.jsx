@@ -8,9 +8,9 @@
 
 import car1 from "../../assets/images/landing/hero/new/car1.mp4";
 import car2 from "../../assets/images/landing/hero/new/car2.mp4";
-import car3 from "../../assets/images/landing/hero/new/car3.mp4";
-import car4 from "../../assets/images/landing/hero/new/car4.mp4";
-import car5 from "../../assets/images/landing/hero/new/car5.mp4";
+import car4 from "../../assets/images/landing/hero/new/car6.mp4";
+import car5 from "../../assets/images/landing/hero/new/car4.mp4";
+import car3 from "../../assets/images/landing/hero/new/car5.mp4";
 
 // import hero4 from "../../assets/images/landing/hero/hero4.mp4";
 
