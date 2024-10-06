@@ -22,6 +22,145 @@ import pecs_10 from "../assets/images/components/train/pecs/10.png";
 import pecs_11 from "../assets/images/components/train/pecs/11.png";
 import pecs_12 from "../assets/images/components/train/pecs/12.png";
 
+import back_1 from "../assets/images/components/train/back/1.png";
+import back_2 from "../assets/images/components/train/back/2.png";
+import back_3 from "../assets/images/components/train/back/3.png";
+import back_4 from "../assets/images/components/train/back/4.png";
+import back_5 from "../assets/images/components/train/back/5.png";
+import back_6 from "../assets/images/components/train/back/6.png";
+import back_7 from "../assets/images/components/train/back/7.png";
+import back_8 from "../assets/images/components/train/back/8.png";
+import back_9 from "../assets/images/components/train/back/9.png";
+import back_10 from "../assets/images/components/train/back/10.png";
+import back_11 from "../assets/images/components/train/back/11.png";
+import back_12 from "../assets/images/components/train/back/12.png";
+import back_13 from "../assets/images/components/train/back/13.png";
+import back_14 from "../assets/images/components/train/back/14.png";
+import back_15 from "../assets/images/components/train/back/15.png";
+import back_16 from "../assets/images/components/train/back/16.png";
+import back_17 from "../assets/images/components/train/back/17.png";
+import back_18 from "../assets/images/components/train/back/18.png";
+import back_19 from "../assets/images/components/train/back/19.png";
+import back_20 from "../assets/images/components/train/back/20.png";
+import back_21 from "../assets/images/components/train/back/21.png";
+import back_22 from "../assets/images/components/train/back/22.png";
+import back_23 from "../assets/images/components/train/back/23.png";
+
+import shoulder_1 from "../assets/images/components/train/shoulder/1.png";
+import shoulder_2 from "../assets/images/components/train/shoulder/2.png";
+import shoulder_3 from "../assets/images/components/train/shoulder/3.png";
+import shoulder_4 from "../assets/images/components/train/shoulder/4.png";
+import shoulder_5 from "../assets/images/components/train/shoulder/5.png";
+import shoulder_6 from "../assets/images/components/train/shoulder/6.png";
+import shoulder_7 from "../assets/images/components/train/shoulder/7.png";
+import shoulder_8 from "../assets/images/components/train/shoulder/8.png";
+import shoulder_9 from "../assets/images/components/train/shoulder/9.png";
+import shoulder_10 from "../assets/images/components/train/shoulder/10.png";
+import shoulder_11 from "../assets/images/components/train/shoulder/11.png";
+import shoulder_12 from "../assets/images/components/train/shoulder/12.png";
+import shoulder_13 from "../assets/images/components/train/shoulder/13.png";
+import shoulder_14 from "../assets/images/components/train/shoulder/14.png";
+import shoulder_15 from "../assets/images/components/train/shoulder/15.png";
+import shoulder_16 from "../assets/images/components/train/shoulder/16.png";
+import shoulder_17 from "../assets/images/components/train/shoulder/17.png";
+import shoulder_18 from "../assets/images/components/train/shoulder/18.png";
+import shoulder_19 from "../assets/images/components/train/shoulder/19.png";
+
+import biceps_1 from "../assets/images/components/train/biceps/1.png";
+import biceps_2 from "../assets/images/components/train/biceps/2.png";
+import biceps_3 from "../assets/images/components/train/biceps/3.png";
+import biceps_4 from "../assets/images/components/train/biceps/4.png";
+import biceps_5 from "../assets/images/components/train/biceps/5.png";
+import biceps_6 from "../assets/images/components/train/biceps/6.png";
+import biceps_7 from "../assets/images/components/train/biceps/7.png";
+import biceps_8 from "../assets/images/components/train/biceps/8.png";
+import biceps_9 from "../assets/images/components/train/biceps/9.png";
+import biceps_10 from "../assets/images/components/train/biceps/10.png";
+import biceps_11 from "../assets/images/components/train/biceps/11.png";
+import biceps_12 from "../assets/images/components/train/biceps/12.png";
+import biceps_13 from "../assets/images/components/train/biceps/13.png";
+import biceps_14 from "../assets/images/components/train/biceps/14.png";
+
+import triceps_1 from "../assets/images/components/train/triceps/1.png";
+import triceps_2 from "../assets/images/components/train/triceps/2.png";
+import triceps_3 from "../assets/images/components/train/triceps/3.png";
+import triceps_4 from "../assets/images/components/train/triceps/4.png";
+import triceps_5 from "../assets/images/components/train/triceps/5.png";
+import triceps_6 from "../assets/images/components/train/triceps/6.png";
+import triceps_7 from "../assets/images/components/train/triceps/7.png";
+import triceps_8 from "../assets/images/components/train/triceps/8.png";
+import triceps_9 from "../assets/images/components/train/triceps/9.png";
+import triceps_10 from "../assets/images/components/train/triceps/10.png";
+import triceps_11 from "../assets/images/components/train/triceps/11.png";
+import triceps_12 from "../assets/images/components/train/triceps/12.png";
+import triceps_13 from "../assets/images/components/train/triceps/13.png";
+
+import abs_1 from "../assets/images/components/train/abs/1.png";
+import abs_2 from "../assets/images/components/train/abs/2.png";
+// import abs_3 from "../assets/images/components/train/abs/3.png";
+import abs_4 from "../assets/images/components/train/abs/4.png";
+import abs_5 from "../assets/images/components/train/abs/5.png";
+import abs_6 from "../assets/images/components/train/abs/6.png";
+import abs_7 from "../assets/images/components/train/abs/7.png";
+import abs_8 from "../assets/images/components/train/abs/8.png";
+import abs_9 from "../assets/images/components/train/abs/9.png";
+
+import legs_1 from "../assets/images/components/train/legs/1.png";
+import legs_2 from "../assets/images/components/train/legs/2.png";
+import legs_3 from "../assets/images/components/train/legs/3.png";
+import legs_4 from "../assets/images/components/train/legs/4.png";
+import legs_5 from "../assets/images/components/train/legs/5.png";
+import legs_6 from "../assets/images/components/train/legs/6.png";
+import legs_7 from "../assets/images/components/train/legs/7.png";
+import legs_8 from "../assets/images/components/train/legs/8.png";
+import legs_9 from "../assets/images/components/train/legs/9.png";
+import legs_10 from "../assets/images/components/train/legs/10.png";
+import legs_11 from "../assets/images/components/train/legs/11.png";
+import legs_12 from "../assets/images/components/train/legs/12.png";
+import legs_13 from "../assets/images/components/train/legs/13.png";
+import legs_14 from "../assets/images/components/train/legs/14.png";
+import legs_15 from "../assets/images/components/train/legs/15.png";
+import legs_16 from "../assets/images/components/train/legs/16.png";
+import legs_17 from "../assets/images/components/train/legs/17.png";
+import legs_18 from "../assets/images/components/train/legs/18.png";
+import legs_19 from "../assets/images/components/train/legs/19.png";
+import legs_20 from "../assets/images/components/train/legs/20.png";
+import legs_21 from "../assets/images/components/train/legs/21.png";
+import legs_22 from "../assets/images/components/train/legs/22.png";
+import legs_23 from "../assets/images/components/train/legs/23.png";
+import legs_24 from "../assets/images/components/train/legs/24.png";
+import legs_25 from "../assets/images/components/train/legs/25.png";
+import legs_26 from "../assets/images/components/train/legs/26.png";
+import legs_27 from "../assets/images/components/train/legs/27.png";
+import legs_28 from "../assets/images/components/train/legs/28.png";
+import legs_29 from "../assets/images/components/train/legs/29.png";
+import legs_30 from "../assets/images/components/train/legs/30.png";
+import legs_31 from "../assets/images/components/train/legs/31.png";
+import legs_32 from "../assets/images/components/train/legs/32.png";
+import legs_33 from "../assets/images/components/train/legs/33.png";
+import legs_34 from "../assets/images/components/train/legs/34.png";
+import legs_35 from "../assets/images/components/train/legs/35.png";
+import legs_36 from "../assets/images/components/train/legs/36.png";
+import legs_37 from "../assets/images/components/train/legs/37.png";
+import legs_38 from "../assets/images/components/train/legs/38.png";
+import legs_39 from "../assets/images/components/train/legs/39.png";
+import legs_40 from "../assets/images/components/train/legs/40.png";
+import legs_41 from "../assets/images/components/train/legs/41.png";
+import legs_42 from "../assets/images/components/train/legs/42.png";
+import legs_43 from "../assets/images/components/train/legs/43.png";
+import legs_44 from "../assets/images/components/train/legs/44.png";
+import legs_45 from "../assets/images/components/train/legs/45.png";
+import legs_46 from "../assets/images/components/train/legs/46.png";
+import legs_47 from "../assets/images/components/train/legs/47.png";
+import legs_48 from "../assets/images/components/train/legs/48.png";
+import legs_49 from "../assets/images/components/train/legs/49.png";
+import legs_50 from "../assets/images/components/train/legs/50.png";
+import legs_51 from "../assets/images/components/train/legs/51.png";
+
+import twins_1 from "../assets/images/components/train/twins/1.png";
+import twins_2 from "../assets/images/components/train/twins/2.png";
+
+
 // Rutina de Ejercicios
 export const routines = [
   {
@@ -617,6 +756,7 @@ export const routines = [
       {
         id: 1,
         name: "Remo con Mancuerna a Una Mano",
+        image: back_1,
         position: [
           "Coloca una mancuerna al lado de un banco plano.",
           "Coloca una rodilla y una mano del mismo lado sobre el banco, asegurándote de que la espalda esté recta y paralela al suelo.",
@@ -669,6 +809,7 @@ export const routines = [
       {
         id: 2,
         name: "Jalón con Agarre Ancho",
+        image: back_2,
         position: [
           "Siéntate en el banco de la máquina de jalón con los pies apoyados en el suelo y las rodillas ligeramente flexionadas.",
           "Agarra la barra con las manos en un agarre ancho, más allá del ancho de tus hombros, y las palmas mirando hacia adelante.",
@@ -719,6 +860,7 @@ export const routines = [
       {
         id: 3,
         name: "Remo en Máquina",
+        image: back_3,
         position: [
           "Siéntate en la máquina de remo y ajusta las correas de los pies para que queden bien sujetas.",
           "Agarra el manillar con ambas manos, utilizando un agarre prono (palmas hacia abajo).",
@@ -779,6 +921,7 @@ export const routines = [
       {
         id: 4,
         name: "Jalón al Pecho con Agarre Cerrado",
+        image: back_4,
         position: [
           "Siéntate en la máquina de jalón con los muslos asegurados bajo las almohadillas.",
           "Agarra la barra con las manos en un agarre cerrado, aproximadamente a 30-40 centímetros de distancia entre sí, con las palmas hacia abajo.",
@@ -829,6 +972,7 @@ export const routines = [
       {
         id: 5,
         name: "Remo con Barra",
+        image: back_5,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Agarra la barra con un agarre prono (palmas hacia abajo) a la altura de los hombros.",
@@ -881,6 +1025,7 @@ export const routines = [
       {
         id: 6,
         name: "Jalón Tras Nuca",
+        image: back_6,
         position: [
           "Siéntate en la máquina de jalón con los muslos asegurados bajo las almohadillas.",
           "Agarra la barra con las manos en un agarre prono (palmas hacia abajo) y las manos separadas más allá del ancho de los hombros.",
@@ -937,6 +1082,7 @@ export const routines = [
       {
         id: 7,
         name: "Jalón al Pecho con Agarre Invertido",
+        image: back_7,
         position: [
           "Siéntate en la máquina de jalón con los muslos asegurados bajo las almohadillas.",
           "Agarra la barra con las manos en un agarre supino (palmas hacia arriba) y las manos separadas al ancho de los hombros.",
@@ -987,6 +1133,7 @@ export const routines = [
       {
         id: 8,
         name: "Jalón en Polea con Cuerda",
+        image: back_8,
         position: [
           "Colócate de pie frente a una polea alta, con las rodillas ligeramente dobladas y el pecho ligeramente inclinado hacia adelante.",
           "Toma un extremo de la cuerda en cada mano con un agarre neutral (palmas enfrentadas).",
@@ -1038,6 +1185,7 @@ export const routines = [
       {
         id: 9,
         name: "Remo en Barra T",
+        image: back_9,
         position: [
           "Coloca un extremo de la barra en una esquina o en un soporte específico para barra T.",
           "Coloca un agarre en V o una manija en el otro extremo de la barra.",
@@ -1092,6 +1240,7 @@ export const routines = [
       {
         id: 10,
         name: "Remo Inclinado con Agarre Supinado",
+        image: back_10,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Agarra la barra con un agarre supinado (palmas hacia arriba) a la altura de los hombros.",
@@ -1144,6 +1293,7 @@ export const routines = [
       {
         id: 11,
         name: "Elevaciones con Barra Fija",
+        image: back_11,
         position: [
           "Agarra la barra con un agarre prono (palmas hacia adelante) y las manos separadas al ancho de los hombros o ligeramente más anchas.",
           "Cuelga de la barra con los brazos completamente extendidos y los pies cruzados detrás de ti para mantener el equilibrio.",
@@ -1196,6 +1346,7 @@ export const routines = [
       {
         id: 12,
         name: "Elevaciones Tras Nuca en Barra Fija",
+        image: back_12,
         position: [
           "Agarra la barra con un agarre prono (palmas hacia adelante) y las manos separadas más allá del ancho de los hombros.",
           "Cuelga de la barra con los brazos completamente extendidos y los pies cruzados detrás de ti para mantener el equilibrio.",
@@ -1254,6 +1405,7 @@ export const routines = [
       {
         id: 13,
         name: "Elevaciones en Barra Fija con Agarre Supinado",
+        image: back_13,
         position: [
           "Agarra la barra con un agarre supinado (palmas hacia ti) y las manos separadas al ancho de los hombros.",
           "Cuelga de la barra con los brazos completamente extendidos y los pies cruzados detrás de ti para mantener el equilibrio.",
@@ -1306,6 +1458,7 @@ export const routines = [
       {
         id: 14,
         name: "Jalón Dorsal con Brazos Rectos",
+        image: back_14,
         position: [
           "Colócate de pie frente a una polea alta con una barra recta.",
           "Agarra la barra con un agarre prono (palmas hacia abajo) y las manos separadas a la anchura de los hombros.",
@@ -1368,6 +1521,7 @@ export const routines = [
       {
         id: 15,
         name: "Remo Inclinado con Mancuernas",
+        image: back_15,
         position: [
           "Coloca una mancuerna en cada mano y ponte de pie con las piernas separadas a la altura de los hombros.",
           "Inclínate hacia adelante desde las caderas, manteniendo la espalda recta y las rodillas ligeramente flexionadas.",
@@ -1424,6 +1578,7 @@ export const routines = [
       {
         id: 16,
         name: "Pullover con Mancuerna",
+        image: back_16,
         position: [
           "Colócate tumbado en un banco horizontal, con los pies firmemente apoyados en el suelo.",
           "Sujeta una mancuerna con ambas manos, extendiendo los brazos verticalmente sobre el pecho.",
@@ -1484,6 +1639,7 @@ export const routines = [
       {
         id: 17,
         name: "Pullover con Barra",
+        image: back_17,
         position: [
           "Acuéstate en un banco plano, con los pies firmemente apoyados en el suelo.",
           "Sostén la barra con ambas manos, extendiendo los brazos verticalmente sobre el pecho.",
@@ -1544,6 +1700,7 @@ export const routines = [
       {
         id: 18,
         name: "Peso Muerto con Barra",
+        image: back_18,
         position: [
           "Colócate de pie con los pies separados al ancho de las caderas, con la barra justo frente a ti.",
           "Agarra la barra con un agarre prono (palmas hacia abajo) o mixto (una palma hacia abajo y otra hacia arriba), con las manos separadas al ancho de los hombros.",
@@ -1615,6 +1772,7 @@ export const routines = [
       {
         id: 19,
         name: "Peso Muerto Sumo con Barra",
+        image: back_19,
         position: [
           "Coloca la barra en el suelo y párate con los pies más anchos que el ancho de los hombros, con los dedos de los pies ligeramente hacia afuera.",
           "Agarra la barra con las manos dentro de las piernas y las palmas hacia abajo.",
@@ -1690,6 +1848,7 @@ export const routines = [
       {
         id: 20,
         name: "Peso Muerto con Barra Hexagonal",
+        image: back_20,
         position: [
           "Colócate de pie dentro de la barra hexagonal, con los pies separados al ancho de las caderas y las puntas de los pies mirando hacia adelante.",
           "Agarra las asas de la barra con un agarre neutro (palmas enfrentadas).",
@@ -1761,6 +1920,7 @@ export const routines = [
       {
         id: 21,
         name: "Peso Muerto con Mancuernas",
+        image: back_21,
         position: [
           "Colócate de pie con los pies separados al ancho de las caderas, con una mancuerna en cada mano.",
           "Mantén las mancuernas frente a tus muslos, con las palmas hacia el cuerpo.",
@@ -1830,6 +1990,7 @@ export const routines = [
       {
         id: 22,
         name: "Encogimiento de Hombros con Barra",
+        image: back_22,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta la barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -1885,6 +2046,7 @@ export const routines = [
       {
         id: 23,
         name: "Encogimiento de Hombros con Mancuernas",
+        image: back_23,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre neutro (palmas enfrentadas).",
@@ -1946,6 +2108,7 @@ export const routines = [
       {
         id: 1,
         name: "Press de hombro con mancuernas",
+        image: shoulder_1,
         position: [
           "Siéntate en un banco con respaldo vertical, manteniendo la espalda recta y los pies firmemente apoyados en el suelo.",
           "Sujeta una mancuerna en cada mano, con las palmas mirando hacia adelante y las mancuernas a la altura de los hombros.",
@@ -1999,6 +2162,7 @@ export const routines = [
       {
         id: 2,
         name: "Elevación lateral con mancuernas",
+        image: shoulder_2,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre neutro (palmas enfrentadas).",
@@ -2054,6 +2218,7 @@ export const routines = [
       {
         id: 3,
         name: "Elevación frontal con mancuernas",
+        image: shoulder_3,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre prono (palmas hacia abajo).",
@@ -2109,6 +2274,7 @@ export const routines = [
       {
         id: 4,
         name: "Cruces inversos en polea alta",
+        image: shoulder_4,
         position: [
           "Ajusta las poleas a una altura alta, por encima de tu cabeza.",
           "Sujeta las empuñaduras con un agarre prono (palmas hacia abajo) y da un paso hacia adelante para estabilizarte.",
@@ -2168,6 +2334,7 @@ export const routines = [
       {
         id: 5,
         name: "Press de hombros en máquina Smith",
+        image: shoulder_5,
         position: [
           "Ajusta un banco con respaldo vertical en la máquina Smith y siéntate con la espalda y la zona lumbar bien apoyadas en el respaldo.",
           "Coloca la barra a la altura de los ojos y carga el peso deseado.",
@@ -2222,6 +2389,7 @@ export const routines = [
       {
         id: 6,
         name: "Remo alto con barra",
+        image: shoulder_6,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta la barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2281,6 +2449,7 @@ export const routines = [
       {
         id: 7,
         name: "Elevaciones Posteriores para Hombros 'Pájaro'",
+        image: shoulder_7,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre neutro (palmas enfrentadas).",
@@ -2340,6 +2509,7 @@ export const routines = [
       {
         id: 8,
         name: "Elevación Lateral con Cable a una Mano",
+        image: shoulder_8,
         position: [
           "Colócate de pie junto a una polea baja, con los pies separados al ancho de los hombros.",
           "Sujeta el asa del cable con una mano, manteniendo el brazo extendido y la palma hacia el cuerpo.",
@@ -2394,6 +2564,7 @@ export const routines = [
       {
         id: 9,
         name: "Press Militar con Mancuernas",
+        image: shoulder_9,
         position: [
           "Siéntate en un banco con respaldo vertical, manteniendo la espalda recta y los pies firmemente apoyados en el suelo.",
           "Sujeta una mancuerna en cada mano, con las palmas mirando hacia adelante y las mancuernas a la altura de los hombros.",
@@ -2447,6 +2618,7 @@ export const routines = [
       {
         id: 10,
         name: "Press Militar",
+        image: shoulder_10,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2505,6 +2677,7 @@ export const routines = [
       {
         id: 11,
         name: "Elevaciones Frontales con Cable a una Mano",
+        image: shoulder_11,
         position: [
           "Colócate de pie junto a una polea baja, con los pies separados al ancho de los hombros.",
           "Sujeta el asa del cable con una mano, manteniendo el brazo extendido y la palma hacia el cuerpo.",
@@ -2559,6 +2732,7 @@ export const routines = [
       {
         id: 12,
         name: "Elevaciones Frontales con Barra",
+        image: shoulder_12,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta la barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2614,6 +2788,7 @@ export const routines = [
       {
         id: 13,
         name: "Press Militar Sentado con Barra",
+        image: shoulder_13,
         position: [
           "Siéntate en un banco con respaldo vertical, manteniendo la espalda recta y los pies firmemente apoyados en el suelo.",
           "Sujeta la barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2672,6 +2847,7 @@ export const routines = [
       {
         id: 14,
         name: "Press Tras Nuca Sentado",
+        image: shoulder_14,
         position: [
           "Siéntate en un banco con respaldo vertical, manteniendo la espalda recta y los pies firmemente apoyados en el suelo.",
           "Sujeta la barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2740,6 +2916,7 @@ export const routines = [
       {
         id: 15,
         name: "Press Militar de Pie",
+        image: shoulder_15,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -2798,6 +2975,7 @@ export const routines = [
       {
         id: 16,
         name: "Press Militar de Pie Tras Nuca",
+        image: shoulder_16,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una barra con un agarre prono (palmas hacia abajo) y las manos separadas un poco más que el ancho de los hombros.",
@@ -2867,6 +3045,7 @@ export const routines = [
       {
         id: 17,
         name: "Elevación Frontal con Mancuernas Alternas (Agarre Neutro)",
+        image: shoulder_17,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre neutro (palmas enfrentadas).",
@@ -2937,6 +3116,7 @@ export const routines = [
       {
         id: 18,
         name: "Elevación Frontal con un Brazo en Polea Baja (Agarre Neutro)",
+        image: shoulder_18,
         position: [
           "Colócate de pie de espaldas a la polea baja.",
           "Sujeta el mango de la polea con una mano en agarre neutro (palma mirando hacia el cuerpo).",
@@ -3007,6 +3187,7 @@ export const routines = [
       {
         id: 19,
         name: "Elevación Frontal con Mancuerna a Dos Manos",
+        image: shoulder_19,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna con ambas manos en agarre neutro (palmas enfrentadas).",
@@ -3082,6 +3263,7 @@ export const routines = [
       {
         id: 1,
         name: "Curl con Barra",
+        image: biceps_1,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una barra con un agarre supino (palmas hacia arriba) y las manos separadas al ancho de los hombros.",
@@ -3152,6 +3334,7 @@ export const routines = [
       {
         id: 2,
         name: "Curl Alterno con Mancuerna",
+        image: biceps_2,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre supino (palmas hacia arriba).",
@@ -3223,6 +3406,7 @@ export const routines = [
       {
         id: 3,
         name: "Curl con Cuerda en Polea Baja",
+        image: biceps_3,
         position: [
           "Colócate de pie frente a la polea baja.",
           "Sujeta la cuerda con ambas manos en agarre neutro (palmas enfrentadas).",
@@ -3293,6 +3477,7 @@ export const routines = [
       {
         id: 4,
         name: "Curl con Barra EZ",
+        image: biceps_4,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta la barra EZ con un agarre supino (palmas hacia arriba) y las manos en las curvas de la barra.",
@@ -3363,6 +3548,7 @@ export const routines = [
       {
         id: 5,
         name: "Curl de Predicador con Barra EZ",
+        image: biceps_5,
         position: [
           "Colócate de pie o sentado en un banco predicador ajustado a la altura adecuada.",
           "Sujeta la barra EZ con un agarre supino (palmas hacia arriba) y las manos en las curvas de la barra.",
@@ -3433,6 +3619,7 @@ export const routines = [
       {
         id: 6,
         name: "Curl Alterno de Martillo Con Mancuernas",
+        image: biceps_6,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una mancuerna en cada mano con un agarre neutro (palmas enfrentadas).",
@@ -3504,6 +3691,7 @@ export const routines = [
       {
         id: 7,
         name: "Curl Inclinado con Mancuernas",
+        image: biceps_7,
         position: [
           "Ajusta un banco a un ángulo de aproximadamente 45 grados.",
           "Siéntate en el banco con los pies firmemente apoyados en el suelo.",
@@ -3575,6 +3763,7 @@ export const routines = [
       {
         id: 8,
         name: "Curl Concentrado con Mancuerna",
+        image: biceps_8,
         position: [
           "Siéntate en un banco con los pies firmemente apoyados en el suelo.",
           "Sostén una mancuerna con una mano y coloca el codo del mismo brazo en el interior del muslo.",
@@ -3644,6 +3833,7 @@ export const routines = [
       {
         id: 9,
         name: "Curl de Cable en Polea Baja a Una Mano",
+        image: biceps_9,
         position: [
           "Colócate de pie frente a la polea baja, con los pies separados al ancho de los hombros.",
           "Ajusta la polea a la altura más baja y sujeta la empuñadura con una mano, con un agarre supino (palma hacia arriba).",
@@ -3713,6 +3903,7 @@ export const routines = [
       {
         id: 10,
         name: "Curl de Cable con Barra Recta en Polea Baja",
+        image: biceps_10,
         position: [
           "Colócate de pie frente a la máquina de polea baja, con los pies separados al ancho de los hombros.",
           "Ajusta la polea a la altura más baja y sujeta la barra recta con un agarre supino (palmas hacia arriba).",
@@ -3782,6 +3973,7 @@ export const routines = [
       {
         id: 11,
         name: "Curl de Cable en Polea Alta de Pie",
+        image: biceps_11,
         position: [
           "Colócate de pie frente a la máquina de polea alta, con los pies separados al ancho de los hombros.",
           "Ajusta la polea a la altura más alta y sujeta la barra o las asas con un agarre supino (palmas hacia arriba).",
@@ -3851,6 +4043,7 @@ export const routines = [
       {
         id: 12,
         name: "Curl de Muñeca con Barra Sentado",
+        image: biceps_12,
         position: [
           "Siéntate en el extremo de un banco plano con los pies firmemente apoyados en el suelo.",
           "Sostén una barra con un agarre supino (palmas hacia arriba).",
@@ -3915,6 +4108,7 @@ export const routines = [
       {
         id: 13,
         name: "Extensión de Muñeca con Barra Sentado",
+        image: biceps_13,
         position: [
           "Siéntate en el extremo de un banco plano con los pies firmemente apoyados en el suelo.",
           "Sostén una barra con un agarre prono (palmas hacia abajo).",
@@ -3979,6 +4173,7 @@ export const routines = [
       {
         id: 14,
         name: "Curl de Barra Invertido",
+        image: biceps_14,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Sujeta una barra con un agarre prono (palmas hacia abajo).",
@@ -4054,6 +4249,7 @@ export const routines = [
       {
         id: 1,
         name: "Extensión de Tríceps Tumbado",
+        image: triceps_1,
         position: [
           "Selecciona el peso adecuado de las mancuernas.",
           "Acuéstate en un banco plano o en una esterilla en el suelo.",
@@ -4119,6 +4315,7 @@ export const routines = [
       {
         id: 2,
         name: "Extensión de Tríceps Tumbado",
+        image: triceps_2,
         position: [
           "Selecciona el peso adecuado de las mancuernas.",
           "Acuéstate en un banco plano o en una esterilla en el suelo.",
@@ -4184,6 +4381,7 @@ export const routines = [
       {
         id: 3,
         name: "Extensión de Tríceps en Polea con Cuerda",
+        image: triceps_3,
         position: [
           "Colócate de pie frente a la máquina de polea alta, con los pies separados al ancho de los hombros.",
           "Ajusta la polea a la altura más alta y sujeta la cuerda con ambas manos, con un agarre neutro (palmas enfrentadas).",
@@ -4248,6 +4446,7 @@ export const routines = [
       {
         id: 4,
         name: "Extensión de Tríceps con Mancuernas por Encima de la Cabeza",
+        image: triceps_4,
         position: [
           "Siéntate en un banco con respaldo para mayor estabilidad, o puedes hacerlo de pie.",
           "Sostén una mancuerna con ambas manos, agarrándola por uno de los extremos con las palmas enfrentadas.",
@@ -4312,6 +4511,7 @@ export const routines = [
       {
         id: 5,
         name: "Press Banca con Agarre Cerrado",
+        image: triceps_5,
         position: [
           "Acuéstate en un banco plano con los pies firmemente apoyados en el suelo.",
           "Sujeta la barra con un agarre cerrado, es decir, con las manos colocadas a una distancia más estrecha que el ancho de los hombros (aproximadamente a la altura de los hombros o un poco más estrecho).",
@@ -4376,6 +4576,7 @@ export const routines = [
       {
         id: 6,
         name: "Patadas Traseras para Tríceps con Mancuernas",
+        image: triceps_6,
         position: [
           "Colócate al lado de un banco plano.",
           "Apoya una mano y una rodilla en el banco para estabilizarte, mientras que la otra pierna permanece en el suelo.",
@@ -4440,6 +4641,7 @@ export const routines = [
       {
         id: 7,
         name: "Extensión de Tríceps con Cable de Agarre Inverso con Barra",
+        image: triceps_7,
         position: [
           "Colócate de pie frente a la máquina de polea alta.",
           "Ajusta la polea a la altura más alta y sujeta la barra con un agarre supino (palmas hacia arriba).",
@@ -4504,6 +4706,7 @@ export const routines = [
       {
         id: 8,
         name: "Extensión de Tríceps con Cable a Una Mano",
+        image: triceps_8,
         position: [
           "Colócate de pie frente a la máquina de polea alta.",
           "Ajusta la polea a la altura más alta y sujeta el asa con un agarre supino (palma hacia arriba) o prono (palma hacia abajo), según prefieras.",
@@ -4568,6 +4771,7 @@ export const routines = [
       {
         id: 9,
         name: "Extensión de Tríceps con Cable a Una Mano con Agarre Supinado",
+        image: triceps_9,
         position: [
           "Colócate de pie frente a la máquina de polea alta.",
           "Ajusta la polea a la altura más alta y sujeta el asa con un agarre supinado (palma hacia arriba).",
@@ -4628,6 +4832,7 @@ export const routines = [
       {
         id: 10,
         name: "Extensión de Tríceps con Mancuernas Tumbado",
+        image: triceps_10,
         position: [
           "Selecciona el peso adecuado de las mancuernas.",
           "Acuéstate en un banco plano con los pies firmemente apoyados en el suelo.",
@@ -4693,6 +4898,7 @@ export const routines = [
       {
         id: 11,
         name: "Press Francés Sentado con Barra",
+        image: triceps_11,
         position: [
           "Siéntate en un banco con respaldo para mayor estabilidad.",
           "Sostén una barra con un agarre prono (palmas hacia abajo) y las manos separadas al ancho de los hombros.",
@@ -4757,6 +4963,7 @@ export const routines = [
       {
         id: 12,
         name: "Fondos en Banco",
+        image: triceps_12,
         position: [
           "Coloca un banco detrás de ti y siéntate en el borde.",
           "Apoya las manos en el borde del banco, con los dedos mirando hacia adelante y las palmas firmemente apoyadas.",
@@ -4821,6 +5028,7 @@ export const routines = [
       {
         id: 13,
         name: "Fondos en Barras Paralelas",
+        image: triceps_13,
         position: [
           "Colócate entre dos barras paralelas y agárralas con las manos, con los brazos extendidos y las palmas mirando hacia adentro.",
           "Levanta el cuerpo hasta que los brazos estén completamente extendidos y las piernas colgando libremente.",
@@ -4895,6 +5103,7 @@ export const routines = [
       {
         id: 1,
         name: "Abdominales Crunch",
+        image: abs_1,
         position: [
           "Túmbate en el suelo boca arriba sobre una esterilla.",
           "Flexiona las rodillas a unos 90 grados y mantén los pies apoyados en el suelo.",
@@ -4959,6 +5168,7 @@ export const routines = [
       {
         id: 2,
         name: "Crunch para Oblicuos",
+        image: abs_2,
         position: [
           "Túmbate en el suelo boca arriba sobre una esterilla.",
           "Flexiona las rodillas y mantén los pies apoyados en el suelo.",
@@ -5020,8 +5230,9 @@ export const routines = [
         ],
       },
       {
-        id: 3,
+        id: 4,
         name: "Abdominales con Cuerda en Polea Alta",
+        image: abs_4,
         position: [
           "Ajusta la polea a la altura más alta y sujeta la cuerda con ambas manos.",
           "Arrodíllate en el suelo frente a la máquina de polea alta.",
@@ -5084,8 +5295,9 @@ export const routines = [
         ],
       },
       {
-        id: 4,
+        id: 5,
         name: "La Plancha",
+        image: abs_5,
         position: [
           "Colócate boca abajo sobre una esterilla.",
           "Apoya los antebrazos en el suelo, con los codos alineados directamente debajo de los hombros.",
@@ -5159,8 +5371,9 @@ export const routines = [
         ],
       },
       {
-        id: 5,
+        id: 6,
         name: "Elevación de Piernas Sostenido de Barra Fija",
+        image: abs_6,
         position: [
           "Agárrate de una barra fija con las manos separadas al ancho de los hombros y las palmas mirando hacia adelante.",
           "Cuelga de la barra con los brazos completamente extendidos y las piernas juntas.",
@@ -5226,8 +5439,9 @@ export const routines = [
         ],
       },
       {
-        id: 6,
+        id: 7,
         name: "Encogimiento de Rodillas Para Abdominales",
+        image: abs_7,
         position: [
           "Túmbate en el suelo boca arriba sobre una esterilla.",
           "Flexiona las rodillas y mantén los pies apoyados en el suelo.",
@@ -5289,8 +5503,9 @@ export const routines = [
         ],
       },
       {
-        id: 7,
+        id: 8,
         name: "Abdominales con Brazos Estirados",
+        image: abs_8,
         position: [
           "Túmbate en el suelo boca arriba sobre una esterilla.",
           "Flexiona las rodillas y mantén los pies apoyados en el suelo.",
@@ -5353,8 +5568,9 @@ export const routines = [
         ],
       },
       {
-        id: 8,
+        id: 9,
         name: "Plancha con Flexión",
+        image: abs_9,
         position: [
           "Colócate en posición de plancha alta, con las manos apoyadas en el suelo a la altura de los hombros.",
           "Mantén el cuerpo en línea recta desde la cabeza hasta los pies, activando el core.",
@@ -5423,6 +5639,7 @@ export const routines = [
       {
         id: 1,
         name: "Sentadillas",
+        image: legs_1,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Mantén los pies firmemente apoyados en el suelo y los dedos ligeramente apuntando hacia afuera.",
@@ -5491,6 +5708,7 @@ export const routines = [
       {
         id: 2,
         name: "Prensa de Piernas",
+        image: legs_2,
         position: [
           "Siéntate en la máquina de prensa de piernas con la espalda apoyada firmemente en el respaldo.",
           "Coloca los pies en la plataforma, separados al ancho de los hombros.",
@@ -5555,6 +5773,7 @@ export const routines = [
       {
         id: 3,
         name: "Extensión de Pierna",
+        image: legs_3,
         position: [
           "Siéntate en la máquina de extensión de pierna con la espalda apoyada firmemente en el respaldo.",
           "Coloca los pies debajo del rodillo acolchado, asegurándote de que tus rodillas estén alineadas con el eje de la máquina.",
@@ -5611,6 +5830,7 @@ export const routines = [
       {
         id: 4,
         name: "Zancadas",
+        image: legs_4,
         position: [
           "Colócate de pie con los pies separados al ancho de las caderas.",
           "Mantén el torso erguido y los hombros hacia atrás.",
@@ -5679,6 +5899,7 @@ export const routines = [
       {
         id: 5,
         name: "Curl de Pierna en Máquina Tumbado",
+        image: legs_5,
         position: [
           "Ajusta la máquina para que el rodillo esté a la altura de tus tobillos.",
           "Túmbate boca abajo en la máquina, asegurándote de que tu cuerpo esté alineado y tus caderas estén apoyadas en el banco.",
@@ -5735,6 +5956,7 @@ export const routines = [
       {
         id: 6,
         name: "Sentadilla Hack",
+        image: legs_6,
         position: [
           "Ajusta la máquina para que las almohadillas estén a la altura de tus hombros.",
           "Coloca la espalda y los hombros contra las almohadillas de la máquina.",
@@ -5797,6 +6019,7 @@ export const routines = [
       {
         id: 7,
         name: "Curl de Piernas Sentado",
+        image: legs_7,
         position: [
           "Ajusta la máquina para que el rodillo esté a la altura de tus tobillos.",
           "Siéntate en la máquina con la espalda bien apoyada en el respaldo.",
@@ -5854,6 +6077,7 @@ export const routines = [
       {
         id: 8,
         name: "Extensión a Una Pierna",
+        image: legs_8,
         position: [
           "Ajusta la máquina de extensión de piernas para que el rodillo esté a la altura de tus tobillos.",
           "Siéntate en la máquina con la espalda bien apoyada en el respaldo.",
@@ -5911,6 +6135,7 @@ export const routines = [
       {
         id: 9,
         name: "Sentadilla Frontal",
+        image: legs_9,
         position: [
           "Coloca la barra en un rack a la altura de los hombros.",
           "Coloca la barra sobre la parte frontal de los hombros, asegurándote de que esté apoyada en la parte superior del pecho.",
@@ -5972,6 +6197,7 @@ export const routines = [
       {
         id: 10,
         name: "Peso Muerto Rumano (Piernas Rectas) con Mancuernas",
+        image: legs_10,
         position: [
           "Coloca una mancuerna en cada mano, con las palmas hacia adentro.",
           "Párate con los pies separados a la anchura de los hombros y los dedos de los pies mirando hacia adelante.",
@@ -6033,6 +6259,7 @@ export const routines = [
       {
         id: 11,
         name: "Peso Muerto Rumano (Piernas Rectas) con Barra",
+        image: legs_11,
         position: [
           "Coloca una barra en el suelo frente a ti.",
           "Párate con los pies separados a la anchura de los hombros y los dedos de los pies mirando hacia adelante.",
@@ -6095,6 +6322,7 @@ export const routines = [
       {
         id: 12,
         name: "Sentadilla Goblet con Mancuerna",
+        image: legs_12,
         position: [
           "Sostén una mancuerna verticalmente con ambas manos, agarrándola por uno de los extremos.",
           "Coloca los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
@@ -6151,6 +6379,7 @@ export const routines = [
       {
         id: 13,
         name: "Salto Rodillas al Pecho",
+        image: legs_13,
         position: [
           "Párate con los pies separados a una distancia algo menor al ancho de los hombros.",
           "Mantén la parte superior de tu cuerpo vertical y la vista al frente.",
@@ -6214,6 +6443,7 @@ export const routines = [
       {
         id: 14,
         name: "Burpees",
+        image: legs_14,
         position: [
           "Párate con los pies separados a la anchura de los hombros y los brazos a los lados.",
           "Mantén la espalda recta y el core contraído.",
@@ -6278,6 +6508,7 @@ export const routines = [
       {
         id: 15,
         name: "Sentadillas con Propio Peso",
+        image: legs_15,
         position: [
           "Párate con los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
           "Mantén la espalda recta y el core contraído.",
@@ -6342,6 +6573,7 @@ export const routines = [
       {
         id: 16,
         name: "1.5 Repeticiones de Sentadillas con Propio Peso",
+        image: legs_16,
         position: [
           "Párate con los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
           "Mantén la espalda recta y el core contraído.",
@@ -6408,6 +6640,7 @@ export const routines = [
       {
         id: 17,
         name: "Sentadillas con Balón Medicinal",
+        image: legs_17,
         position: [
           "Sostén un balón medicinal con ambas manos, manteniéndolo cerca del pecho.",
           "Coloca los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
@@ -6473,6 +6706,7 @@ export const routines = [
       {
         id: 18,
         name: "Sentadillas Búlgaras con Barra",
+        image: legs_18,
         position: [
           "Coloca una barra sobre tus trapecios, detrás de tu cabeza, asegurándote de que esté bien equilibrada.",
           "Colócate de espaldas a un banco o una silla, con los pies separados a la anchura de los hombros.",
@@ -6538,6 +6772,7 @@ export const routines = [
       {
         id: 19,
         name: "Sentadillas Búlgaras con Propio Peso",
+        image: legs_19,
         position: [
           "Colócate de espaldas a un banco o una silla, con los pies separados a la anchura de los hombros.",
           "Lleva una pierna hacia atrás y apoya el empeine del pie trasero sobre el banco.",
@@ -6602,6 +6837,7 @@ export const routines = [
       {
         id: 20,
         name: "Sentadillas con Mini Banda",
+        image: legs_20,
         position: [
           "Coloca una mini banda alrededor de ambas piernas, justo por encima de las rodillas.",
           "Coloca los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
@@ -6667,6 +6903,7 @@ export const routines = [
       {
         id: 21,
         name: "Sentadillas con Salto",
+        image: legs_21,
         position: [
           "Coloca los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
           "Mantén la espalda recta y el core contraído.",
@@ -6732,6 +6969,7 @@ export const routines = [
       {
         id: 22,
         name: "Sentadillas Isométricas Apoyado Sobre la Pared",
+        image: legs_22,
         position: [
           "Colócate de pie, de espaldas a una pared, con los pies separados a la anchura de los hombros.",
           "Asegúrate de que tus pies estén a una distancia adecuada de la pared para que puedas apoyar completamente la espalda sin encorvarte.",
@@ -6797,8 +7035,13 @@ export const routines = [
       {
         id: 23,
         name: "Peso Muerto con Balón Medicinal",
+        image: legs_23,
         position:
-          "De pie, con los pies separados a la anchura de los hombros y el balón medicinal en el suelo frente a ti.",
+          [
+            "Coloca un balón medicinal en el suelo frente a ti.",
+            "Párate erguido con los pies separados a la anchura de los hombros.",
+            "Mantén la espalda recta y el core contraído."
+          ],
         execution: [
           "Inhala profundamente y empuja las caderas hacia atrás, como si alguien te estuviera tirando hacia atrás con una cuerda atada a tu cintura.",
           "Mantén las rodillas ligeramente flexionadas y baja el torso hacia adelante, manteniendo la espalda recta.",
@@ -6860,8 +7103,12 @@ export const routines = [
       {
         id: 24,
         name: "Peso Muerto a Una Pierna",
+        image: legs_24,
         position: [
-          "De pie, con los pies separados a la anchura de las caderas y una ligera flexión en la rodilla de la pierna de apoyo.",
+          "Párate erguido con los pies separados a la anchura de las caderas.",
+          "Mantén una ligera flexión en la rodilla de la pierna de apoyo.",
+          "Mantén la espalda recta y el core contraído.",
+          "Puedes sostener una mancuerna o kettlebell en una mano, o simplemente usar tu propio peso corporal."
         ],
         execution: [
           "Inhala profundamente y empuja las caderas hacia atrás, como si alguien te estuviera tirando hacia atrás con una cuerda atada a tu cintura.",
@@ -6924,9 +7171,11 @@ export const routines = [
       {
         id: 25,
         name: "Sentadillas Sumo con Kettlebell",
+        image: legs_25,
         position: [
           "Coloca los pies más separados que la anchura de los hombros, con las puntas ligeramente hacia afuera.",
           "Sostén una kettlebell con ambas manos, manteniéndola cerca del suelo entre tus piernas.",
+          "Mantén la espalda recta y el core contraído."
         ],
         execution: [
           "Inhala profundamente y desciende en una sentadilla, empujando las caderas hacia atrás y doblando las rodillas.",
@@ -6992,9 +7241,11 @@ export const routines = [
       {
         id: 26,
         name: "Buenos Días con Barra",
+        image: legs_26,
         position: [
           "Coloca una barra sobre tus trapecios, detrás de tu cabeza, asegurándote de que esté bien equilibrada.",
           "Párate erguido con los pies separados a la anchura de las caderas. Mantén la espalda recta y el core contraído.",
+          "Mantén la espalda recta y el core contraído."
         ],
         execution: [
           "Inhala profundamente y empuja las caderas hacia atrás, como si alguien te estuviera tirando hacia atrás con una cuerda atada a tu cintura.",
@@ -7056,9 +7307,12 @@ export const routines = [
       {
         id: 27,
         name: "Puente con Propio Peso",
+        image: legs_27,
         position: [
-          "Acuéstate boca arriba sobre una colchoneta. Dobla las rodillas y lleva los pies hacia ti, plantéandolos planos en el suelo.",
-          "Extiende los brazos a los costados con las palmas hacia abajo. Mantén la espalda recta y el core contraído.",
+          "Acuéstate boca arriba sobre una colchoneta.", 
+          "Dobla las rodillas y lleva los pies hacia ti, plantéandolos planos en el suelo.",
+          "Extiende los brazos a los costados con las palmas hacia abajo.", 
+          "Mantén la espalda recta y el core contraído."
         ],
         execution: [
           "Inhala profundamente y, apoyándote en los talones, levanta las caderas del suelo.",
@@ -7121,8 +7375,10 @@ export const routines = [
       {
         id: 28,
         name: "Puentes a Una Pierna",
+        image: legs_28,
         position: [
-          "Acuéstate boca arriba sobre una colchoneta. Dobla una rodilla y planta el pie en el suelo, mientras mantienes la otra pierna extendida hacia el techo.",
+          "Acuéstate boca arriba sobre una colchoneta.", 
+          "Dobla una rodilla y planta el pie en el suelo, mientras mantienes la otra pierna extendida hacia el techo.",
           "Extiende los brazos a los costados con las palmas hacia abajo.",
           "Mantén la espalda recta y el core contraído.",
         ],
@@ -7187,6 +7443,7 @@ export const routines = [
       {
         id: 29,
         name: "Puentes con Bandas",
+        image: legs_29,
         position: [
           "Coloca una mini banda alrededor de ambas piernas, justo por encima de las rodillas.",
           "Acuéstate boca arriba sobre una colchoneta.",
@@ -7256,6 +7513,7 @@ export const routines = [
       {
         id: 30,
         name: "Caminata de Pato",
+        image: legs_30,
         position: [
           "Coloca los pies separados a la anchura de los hombros y las puntas ligeramente hacia afuera.",
           "Baja a una posición de cuclillas, doblando las rodillas y llevando las caderas hacia abajo, como si te fueras a sentar en una silla imaginaria.",
@@ -7322,6 +7580,7 @@ export const routines = [
       {
         id: 31,
         name: "Superman en Cuadrupedia",
+        image: legs_31,
         position: [
           "Colócate en posición de cuadrupedia, con las manos justo debajo de los hombros y las rodillas debajo de las caderas.",
           "Mantén la espalda recta y el core contraído.",
@@ -7391,7 +7650,8 @@ export const routines = [
       },
       {
         id: 32,
-        name: "Groiners",
+        name: "Los Groiners",
+        image: legs_32,
         position: [
           "Comienza en una posición de plancha alta, con las manos justo debajo de los hombros y el cuerpo formando una línea recta desde la cabeza hasta los talones.",
           "Mantén la espalda recta y el core contraído.",
@@ -7468,6 +7728,7 @@ export const routines = [
       {
         id: 33,
         name: "Hidrantes",
+        image: legs_33,
         position: [
           "Colócate en posición de cuadrupedia, con las manos justo debajo de los hombros y las rodillas debajo de las caderas.",
           "Mantén la espalda recta y el core contraído.",
@@ -7532,6 +7793,7 @@ export const routines = [
       {
         id: 34,
         name: "Elevaciones de Cadera con Máquina Smith",
+        image: legs_34,
         position: [
           "Coloca un banco en la entrada de la máquina Smith, paralelo a la barra.",
           "Coloca una toalla doblada sobre tus caderas para mayor comodidad.",
@@ -7601,6 +7863,7 @@ export const routines = [
       {
         id: 35,
         name: "Elevaciones de Cadera con Barra",
+        image: legs_35,
         position: [
           "Coloca un banco en la entrada de la máquina Smith, paralelo a la barra.",
           "Coloca una toalla doblada sobre tus caderas para mayor comodidad.",
@@ -7670,6 +7933,7 @@ export const routines = [
       {
         id: 36,
         name: "Abducciones de Cadera Sentado con Banda",
+        image: legs_36,
         position: [
           "Coloca una mini banda alrededor de ambas piernas, justo por encima de las rodillas.",
           "Siéntate en el borde de un banco con los pies separados a la anchura de los hombros y la espalda recta.",
@@ -7731,6 +7995,7 @@ export const routines = [
       {
         id: 37,
         name: "Abducciones de Cadera con Máquina de Abducción de Cadera",
+        image: legs_37,
         position: [
           "Siéntate en la máquina de abducción de cadera con la espalda recta y los pies apoyados en los reposapiés.",
           "Ajusta la almohadilla en la parte externa de los muslos para que esté justo por encima de las rodillas.",
@@ -7792,6 +8057,7 @@ export const routines = [
       {
         id: 38,
         name: "Abducción de Cadera con Polea",
+        image: legs_38,
         position: [
           "Ajusta la polea baja a la altura más baja posible.",
           "Coloca una tobillera en el extremo del cable y ajusta la resistencia a un nivel adecuado para ti.",
@@ -7858,6 +8124,7 @@ export const routines = [
       {
         id: 39,
         name: "Abducción de Cadera con Polea",
+        image: legs_39,
         position: [
           "Ajusta la polea baja a la altura más baja posible.",
           "Coloca una tobillera en el extremo del cable y ajusta la resistencia a un nivel adecuado para ti.",
@@ -7924,6 +8191,7 @@ export const routines = [
       {
         id: 40,
         name: "Elevaciones Cortas en Posición de Rana con Máquina Smith",
+        image: legs_40,
         position: [
           "Coloca un banco dentro de la máquina Smith, perpendicular a la barra.",
           "Coloca una toalla doblada sobre tus caderas para mayor comodidad.",
@@ -7993,6 +8261,7 @@ export const routines = [
       {
         id: 41,
         name: "Almejas Laterales con Banda",
+        image: legs_41,
         position: [
           "Coloca una mini banda alrededor de ambas piernas, justo por encima de las rodillas.",
           "Acuéstate de lado sobre una colchoneta.",
@@ -8053,6 +8322,7 @@ export const routines = [
       {
         id: 42,
         name: "Levantamiento de Pierna Acostado de Lado",
+        image: legs_42,
         position: [
           "Acuéstate de lado sobre una colchoneta.",
           "Mantén las piernas extendidas y apiladas una sobre la otra.",
@@ -8117,6 +8387,7 @@ export const routines = [
       {
         id: 43,
         name: "Elevaciones de Bíceps Femoral con Máquina GHD",
+        image: legs_43,
         position: [
           "Ajusta la máquina GHD (Glute-Ham Developer) para que se adapte a tu altura. La almohadilla debe estar justo debajo de tus caderas y los pies deben estar asegurados en los reposapiés.",
           "Coloca los pies en las almohadillas de los tobillos con los dedos de los pies contra la placa mientras usas las manos para sujetar las almohadillas delanteras.",
@@ -8183,6 +8454,7 @@ export const routines = [
       {
         id: 44,
         name: "Step Up con Mancuernas",
+        image: legs_44,
         position: [
           "Coloca un banco o una plataforma estable frente a ti.",
           "Sostén una mancuerna en cada mano, con los brazos extendidos a los lados.",
@@ -8248,6 +8520,7 @@ export const routines = [
       {
         id: 45,
         name: "Caminata Lateral con Minibanda",
+        image: legs_45,
         position: [
           "Coloca una minibanda alrededor de ambas piernas, justo por encima de las rodillas.",
           "Coloca los pies separados a la anchura de los hombros y asegúrate de que no haya holgura en la banda.",
@@ -8311,6 +8584,7 @@ export const routines = [
       {
         id: 46,
         name: "Elevaciones de Rodilla",
+        image: legs_46,
         position: [
           "Párate derecho con los pies separados a la anchura de las caderas.",
           "Mantén los brazos a los lados del cuerpo o colócalos en la cintura para mayor estabilidad.",
@@ -8375,6 +8649,7 @@ export const routines = [
       {
         id: 47,
         name: "Columpios con Kettlebell",
+        image: legs_47,
         position: [
           "Colócate de pie con los pies separados a la anchura de los hombros.",
           "Sostén el kettlebell con ambas manos, con los brazos extendidos frente a ti.",
@@ -8444,6 +8719,7 @@ export const routines = [
       {
         id: 48,
         name: "Contragolpe con Cable",
+        image: legs_48,
         position: [
           "Ajusta la polea baja a la altura más baja posible.",
           "Coloca una tobillera en el extremo del cable y ajusta la resistencia a un nivel adecuado para ti.",
@@ -8510,6 +8786,7 @@ export const routines = [
       {
         id: 49,
         name: "Patadas de Burro",
+        image: legs_49,
         position: [
           "Colócate en una posición de cuadrupedia (a cuatro patas) en el suelo, con las manos alineadas con los hombros y las rodillas alineadas con las caderas.",
           "Mantén la espalda recta y el core activado para estabilizar el torso.",
@@ -8574,6 +8851,7 @@ export const routines = [
       {
         id: 50,
         name: "Elevaciones de Cadera Acostado Lateralmente",
+        image: legs_50,
         position: [
           "Acuéstate de costado con las piernas una encima de la otra.",
           "Apoya el codo y el antebrazo en el suelo, con el brazo apuntando en dirección opuesta a ti.",
@@ -8640,6 +8918,7 @@ export const routines = [
       {
         id: 51,
         name: "Sentadilla Posturas Funcionales",
+        image: legs_51,
         position: [
           "Párese recto con los pies separados al ancho de los hombros.",
           "Mantén el core activado y la espalda recta.",
@@ -8711,6 +8990,7 @@ export const routines = [
       {
         id: 1,
         name: "Elevación de Gemelos Sentado",
+        image: twins_1,
         position: [
           "Siéntate en una máquina de elevación de gemelos o en un banco con una barra o mancuerna sobre tus muslos, justo por encima de las rodillas.",
           "Coloca la parte delantera de tus pies en una plataforma elevada o en el suelo, con los talones colgando fuera del borde.",
@@ -8766,6 +9046,7 @@ export const routines = [
       {
         id: 2,
         name: "Elevación de Gemelos de Pie",
+        image: twins_2,
         position: [
           "Colócate de pie con los pies separados al ancho de los hombros.",
           "Mantén la espalda recta y el core activado para estabilizar el torso.",

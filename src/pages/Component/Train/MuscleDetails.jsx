@@ -27,7 +27,7 @@ export const MuscleDetails = () => {
     <div className="py-32 md:py-36 px-6 md:px-36">
       {bodyPart && (
         <>
-          <h2 className="text-center text-5xl mb-6 font-bold text-red-700 capitalize">
+          <h2 className="text-center text-5xl mb-6 font-bold text-[#3c8274] capitalize">
             {bodyPart.id}
           </h2>
 
