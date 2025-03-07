@@ -1,21 +1,31 @@
+import cultural from "../assets/images/components/running/Runing4.webp"
+import modalities from "../assets/images/components/running/Runing5.webp"
+import equipment from "../assets/images/components/running/Runing3.webp"
+import goods from "../assets/images/components/running/Runing2.webp"
+
+
 export const articles_resume = [
     {
         id: 1,
+        image: cultural,
         title: "La Cultura y Comunidad del Running a Nivel Global, Internacional, Nacional, Departamental y Zonal",
         desc: "El running ha pasado de ser una simple actividad física a convertirse en un fenómeno cultural y una comunidad global."
     },
     {
         id: 2,
+        image: modalities,
         title: "VARIEDAD DE MODALIDADES DEL RUNNING: Diversas Modalidades de Running desde la Perspectiva de un Entrenador",
         desc: "El running es una de las actividades físicas más populares y accesibles del mundo. Este artículo explora las principales modalidades de running desde la perspectiva de un entrenador, destacando sus características y beneficios."
     },
     {
         id: 3,
+        image: equipment,
         title: "La Importancia del Equipamiento Especializado en el Running",
         desc: "El running es una actividad física que requiere de una planificación adecuada para maximizar sus beneficios y minimizar el riesgo de lesiones. Este artículo explora la importancia del equipamiento especializado desde una perspectiva médica, deportiva, biomecánica y de rendimiento."
     },
     {
         id: 4,
+        image: goods,
         title: "Beneficios del Running para la Salud desde un Enfoque Integral",
         desc: "El running es una actividad física que ha ganado popularidad debido a sus múltiples beneficios para la salud. Este artículo explora los beneficios del running desde una perspectiva integral, abordando diferentes áreas de la salud."
     }
