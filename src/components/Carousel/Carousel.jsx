@@ -1,23 +1,6 @@
-// import car1 from '../../assets/images/landing/carousel/carousel1.webp'
-// import car2 from '../../assets/images/landing/carousel/carousel2.webp'
-// import car3 from '../../assets/images/landing/carousel/carousel3.png'
-
-// import hero1 from "../../assets/images/landing/hero/hero1.mp4";
-// import hero2 from "../../assets/images/landing/hero/hero2.mp4";
-// import hero3 from "../../assets/images/landing/hero/hero3.mp4";
-
-import car1 from "../../assets/images/landing/hero/new/car1.mp4";
-import car2 from "../../assets/images/landing/hero/new/car2.mp4";
-import car4 from "../../assets/images/landing/hero/new/car6.mp4";
-import car5 from "../../assets/images/landing/hero/new/car4.mp4";
-import car3 from "../../assets/images/landing/hero/new/car5.mp4";
-
-// import hero4 from "../../assets/images/landing/hero/hero4.mp4";
-
 import { TECarousel, TECarouselItem } from "tw-elements-react";
 
-export const Carousel = () => {
-  const carousel = [car1, car2, car3, car4, car5];
+export const Carousel = ({carousel, loopV}) => {
 
   return (
     <div>
@@ -30,7 +13,7 @@ export const Carousel = () => {
                 itemID={index + 1}
                 className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
               >
-                <video autoPlay loop muted playsInline className="w-full">
+                <video autoPlay loop={loopV} muted playsInline className="w-full">
                   <source src={car} type="video/mp4" />
                 </video>
               </TECarouselItem>

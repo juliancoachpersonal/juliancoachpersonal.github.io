@@ -5,19 +5,34 @@ import { running } from "../../../utils/data.js";
 import clipsCocuy from "../../../assets/images/components/running/publicity.mp4";
 
 import { articles_resume } from "../../../utils/runing.js";
+import { Carousel } from "../../../components/Carousel/Carousel.jsx";
 // import { HashLink } from "react-router-hash-link";
+
+import car1 from '../../../assets/images/components/running/carousel/run_1.mp4'
+import car2 from '../../../assets/images/components/running/carousel/run_2.mp4'
+import car3 from '../../../assets/images/components/running/carousel/run_3.mp4'
+import car4 from '../../../assets/images/components/running/carousel/run_4.mp4'
+import car5 from '../../../assets/images/components/running/carousel/run_5.mp4'
+import car6 from '../../../assets/images/components/running/carousel/run_6.mp4'
+import car7 from '../../../assets/images/components/running/carousel/run_7.mp4'
+import car8 from '../../../assets/images/components/running/carousel/run_8.mp4'
+import car9 from '../../../assets/images/components/running/carousel/run_9.mp4'
+import car10 from '../../../assets/images/components/running/carousel/run_10.mp4'
 
 export const Running = () => {
 
   const list_articles = articles_resume;
+  const car_running = [car1, car2, car3, car4, car5, car6, car7, car8, car9, car10]
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
-    <div className="py-32 md:py-36">
-      <h2 className="text-center text-4xl text-[#3C8274] font-bold pb-8">
+    
+    <div className="mt-[6rem] md:mt-[5.5rem]">
+      <Carousel carousel={car_running} loopV={false}></Carousel>
+      <h2 className="text-center text-4xl text-[#3C8274] font-bold pb-8 mt-5">
         ¡Corre hacia tus metas sin límites!
       </h2>
       

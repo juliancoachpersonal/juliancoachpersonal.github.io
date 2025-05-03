@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import modalH from "../../assets/images/landing/welcome/modalH.png";
-import modalV from "../../assets/images/landing/welcome/modalV.png";
+import modalH from "../../assets/images/landing/welcome/splash.jpeg";
+import modalV from "../../assets/images/landing/welcome/splash.jpeg";
 
 export const ModalWelcome = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,7 +23,7 @@ export const ModalWelcome = () => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
-      <div className="w-[100%] md:w-[70%] m-0 border rounded-lg bg-white shadow overflow-auto">
+      <div className="w-[100%] md:w-[50%] m-0 border rounded-lg bg-white shadow overflow-auto">
         <div className="flex">
           
           <div className="md:hidden max-h-screen overflow-y-auto">

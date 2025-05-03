@@ -159,7 +159,7 @@ export const Pricing = ({ t }) => {
               </p> */}
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$680.000" : "164 USD"}
+                  {!isChecked ? "$600.000" : "120 USD"}
                 </span>
               </p>
               <p className="mt-6 text-justify">{t("plans.plan.bronce.desc")}</p>
@@ -310,7 +310,7 @@ export const Pricing = ({ t }) => {
               </p>
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$995.000" : "240 USD"}
+                  {!isChecked ? "$900.000" : "180 USD"}
                 </span>
               </p>
               <p className="mt-6 text-justify">
@@ -444,7 +444,7 @@ export const Pricing = ({ t }) => {
               </p> */}
               <p className="mt-4 flex items-baseline ">
                 <span className="text-3xl text-emerald-500 font-extrabold tracking-tight pe-5">
-                  {!isChecked ? "$2'450.000" : "590 USD"}
+                  {!isChecked ? "$1'250.000" : "250 USD"}
                 </span>
               </p>
               <p className="mt-6 text-justify">
