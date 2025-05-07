@@ -46,13 +46,14 @@ export const Products = ({t}) => {
                     {t("products.components.train.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>
@@ -75,13 +76,14 @@ export const Products = ({t}) => {
                     {t("products.components.nutrition.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>
@@ -105,13 +107,14 @@ export const Products = ({t}) => {
                     {t("products.components.psychology.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>
@@ -134,13 +137,14 @@ export const Products = ({t}) => {
                   {t("products.components.adventure.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>
@@ -163,13 +167,14 @@ export const Products = ({t}) => {
                   {t("products.components.running.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>
@@ -192,13 +197,14 @@ export const Products = ({t}) => {
                   {t("products.components.esports.desc")}
                   </p>
                 </div>
-                <div className="pt-5 text-base font-semibold leading-7">
+                <div className="pt-8 text-base font-semibold leading-7 flex justify-center">
                   <p>
                     <a
-                      href="#"
-                      className="text-[#3c8274] transition-all duration-300 group-hover:text-white"
+                      
+                      className="rounded bg-[#3c8274] group-hover:bg-white group-hover:text-[#3c8274] px-6 pb-2 pt-2.5 font-medium leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
                     >
-                      {t("products.see_more")} &rarr;
+                      <i className="fa-solid fa-magnifying-glass me-2"></i>
+                      {t("products.see_more")}
                     </a>
                   </p>
                 </div>

@@ -161,7 +161,7 @@ export const articles = [
                         description: "Se puede practicar prácticamente en cualquier lugar urbano."
                     }
                 ],
-                benefits: [
+                importance: [
                     {
                         title: "Mejora la Salud Cardiovascular",
                         description: "Promueve un corazón y pulmones saludables."
@@ -189,7 +189,7 @@ export const articles = [
                         description: "Ofrece una experiencia inmersiva en la naturaleza."
                     }
                 ],
-                benefits: [
+                importance: [
                     {
                         title: "Fortalecimiento Muscular",
                         description: "Trabaja músculos que no se usan tanto en la carrera en ruta."
@@ -217,7 +217,7 @@ export const articles = [
                         description: "Se puede ajustar la intensidad de acuerdo con el nivel de habilidad."
                     }
                 ],
-                benefits: [
+                importance: [
                     {
                         title: "Rehabilitación",
                         description: "Ideal para personas en recuperación de lesiones."

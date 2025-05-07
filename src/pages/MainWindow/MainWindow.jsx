@@ -14,7 +14,9 @@ import { Psychology } from "../Component/Psychology/Psychology";
 import { Train } from "../Component/Train/Train";
 import { MuscleDetails } from "../Component/Train/MuscleDetails";
 import { PremiumPage } from "../PremiumPage/PremiumPage";
+
 import { Running } from "../Component/Running/Running";
+import { RunningDetails } from "../Component/Running/RunningDetails";
 
 import { useTranslation } from "react-i18next";
 import { DetailRoutine } from "../DetailRoutine/DetailRoutine";
@@ -40,6 +42,7 @@ export default function MainWindow() {
           <Route path="/componentes/psicologia" element={ <Psychology/>} />
           <Route path="/componentes/entrenamiento" element={ <Train/>} />
           <Route path="/componentes/running" element={ <Running/>} />
+          <Route path="/componentes/running/:id" element={ <RunningDetails/>} />
           <Route path="/componentes/entrenamiento/:muscle" element={ <MuscleDetails/>} />
           <Route path="/componentes/entrenamiento/:muscle/:id" element={ <DetailRoutine/>} />
           <Route path="/opiniones" element={<OpinionPage />} />

@@ -12,12 +12,12 @@ import { WhatsAppBtn } from "../../components/WhatsAppBtn/WhatsAppBtn";
 import { Carousel } from "../../components/Carousel/Carousel";
 
 import car1 from "../../assets/images/landing/hero/new2/car1.mp4";
-import car2 from "../../assets/images/landing/hero/new2/car2.mp4";
+//import car2 from "../../assets/images/landing/hero/new2/car2.mp4";
 import car3 from "../../assets/images/landing/hero/new2/car3.mp4";
 import car4 from "../../assets/images/landing/hero/new2/car4.mp4";
 
 export function Landing({t}){
-    const carousel = [car1, car2, car3, car4];
+    const carousel = [car1, car3, car4];
     return (
         <div className="mt-[6rem] md:mt-[5.5rem]">
             {/* <Carousel></Carousel> */}
