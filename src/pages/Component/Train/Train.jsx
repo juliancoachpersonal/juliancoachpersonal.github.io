@@ -4,14 +4,26 @@ import { HashLink } from "react-router-hash-link";
 
 import { muscles } from "../../../utils/data";
 
+import car1 from "../../../assets/images/components/train/carousel/car1.mp4";
+import car2 from "../../../assets/images/components/train/carousel/car2.mp4";
+import car3 from "../../../assets/images/components/train/carousel/car3.mp4";
+import car4 from "../../../assets/images/components/train/carousel/car4.mp4";
+import car5 from "../../../assets/images/components/train/carousel/car5.mp4";
+import car6 from "../../../assets/images/components/train/carousel/car6.mp4";
+import car7 from "../../../assets/images/components/train/carousel/car7.mp4";
+import { Carousel } from "../../../components/Carousel/Carousel";
+
 export const Train = () => {
   const list_muscles = muscles;
+  const car_train = [car1, car2, car3, car4, car5, car6, car7];
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="py-32 md:py-36 px-6 md:px-36">
-      <h2 className="text-center text-5xl pb-2 font-bold text-[#3c8274]">
+    <div className="mt-[6rem] md:mt-[5.5rem]">
+      <Carousel carousel={car_train} loopV={false}></Carousel>
+      <h2 className="text-center text-5xl pb-2 mt-8 font-bold text-[#3c8274]">
         Entrenamiento
       </h2>
 
