@@ -23,15 +23,15 @@ export const Train = () => {
   return (
     <div className="mt-[6rem] md:mt-[5.5rem]">
       <Carousel carousel={car_train} loopV={false}></Carousel>
-      <h2 className="text-center text-5xl pb-2 mt-8 font-bold text-[#3c8274]">
+      {/* <h2 className="text-center text-5xl pb-2 mt-8 font-bold text-[#3c8274]">
         Entrenamiento
-      </h2>
+      </h2> */}
 
       {/* <GalleryExpandible /> */}
 
-      <h3 className=" font-bold text-neutral-600 text-xl text-center my-8 mb-4">
+      {/* <h3 className=" font-bold text-neutral-600 text-xl text-center my-8 mb-4">
         Encuentra los mejores recursos y consejos para mantenerte en forma!
-      </h3>
+      </h3> */}
 
       <div>
         <div className="flex gap-6 flex-wrap justify-center">

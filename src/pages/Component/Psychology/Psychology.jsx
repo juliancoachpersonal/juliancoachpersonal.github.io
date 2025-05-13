@@ -19,11 +19,23 @@ const audioSources = [
 ];
 
 
+import car1 from "../../../assets/images/components/psychology/carousel/car1.mp4";
+import car2 from "../../../assets/images/components/psychology/carousel/car2.mp4";
+import car3 from "../../../assets/images/components/psychology/carousel/car3.mp4";
+import car4 from "../../../assets/images/components/psychology/carousel/car4.mp4";
+import car5 from "../../../assets/images/components/psychology/carousel/car5.mp4";
+import car6 from "../../../assets/images/components/psychology/carousel/car6.mp4";
+import car7 from "../../../assets/images/components/psychology/carousel/car7.mp4";
+import car8 from "../../../assets/images/components/psychology/carousel/car8.mp4";
+import { Carousel } from "../../../components/Carousel/Carousel";
+
 
 export const Psychology = () => {
   const circleRef = useRef(null);
   const circleRef2 = useRef(null);
   const circleRef3 = useRef(null);
+
+  const pyscho_list = [car1, car2, car3, car4, car5, car6, car7, car8];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -45,10 +57,11 @@ export const Psychology = () => {
 
 
   return (
-    <div className="py-32 md:py-36 px-6 md:px-36">
-      <h2 className="text-center text-5xl pb-2 font-bold text-[#3c8274]">
+    <div className="mt-[6rem] md:mt-[5.5rem]">
+      <Carousel carousel={pyscho_list} loopV={false}></Carousel>
+      {/* <h2 className="text-center text-5xl pb-2 font-bold text-[#3c8274]">
         Psicología Deportiva
-      </h2>
+      </h2> */}
 
       <img
         className="rounded-full mx-auto w-[50%] md:w-[20%]"
