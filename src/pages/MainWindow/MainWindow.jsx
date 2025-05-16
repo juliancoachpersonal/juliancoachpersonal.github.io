@@ -20,6 +20,7 @@ import { RunningDetails } from "../Component/Running/RunningDetails";
 
 import { useTranslation } from "react-i18next";
 import { DetailRoutine } from "../DetailRoutine/DetailRoutine";
+import { NutritionDetails } from "../Component/Nutrition/NutritionDetails";
 
 export default function MainWindow() {
 
@@ -39,6 +40,7 @@ export default function MainWindow() {
           <Route path="/componentes/aventura" element={<Adventure />} />
           <Route path="/componentes/esports" element={ <Esports/>} />
           <Route path="/componentes/nutricion" element={ <Nutrition/>} />
+          <Route path="/componentes/nutricion/:id" element={ <NutritionDetails/>} />
           <Route path="/componentes/psicologia" element={ <Psychology/>} />
           <Route path="/componentes/entrenamiento" element={ <Train/>} />
           <Route path="/componentes/running" element={ <Running/>} />
