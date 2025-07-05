@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import modalH from "../../assets/images/landing/welcome/splash.jpeg";
-import modalV from "../../assets/images/landing/welcome/splash.jpeg";
+import modalH from "../../assets/images/landing/welcome/splash2.jpeg";
+import modalV from "../../assets/images/landing/welcome/splash2.jpeg";
 
 export const ModalWelcome = () => {
   const [isVisible, setIsVisible] = useState(false);

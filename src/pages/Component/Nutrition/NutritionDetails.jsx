@@ -79,6 +79,28 @@ export const NutritionDetails = () => {
           </div>
         </>
       )}
+      <div className="flex justify-center flex-wrap gap-5 md:gap-12 mt-3 md:mt-10">
+          <a
+            className="flex justify-center items-center rounded-md bg-emerald-700 mt-4 py-2 px-6 text-emerald-50 text-center text-lg transition duration-500 ease-in-out hover:bg-emerald-500 hover:text-white "
+            href="https://api.whatsapp.com/send?phone=573214387967&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20planes%20de%20entrenamiento."
+            rel="noreferrer"
+            target="_blank"
+            // download="brochure_servicios.pdf"
+          >
+            <i className="fa-solid fa-carrot px-2 md:px-3 text-3xl"></i>
+            <span>Conoce más sobre esta dieta</span>
+          </a>
+          <a
+            className="flex justify-center items-center rounded-md bg-emerald-700 mt-4 py-2 px-6 text-emerald-50 text-center text-lg transition duration-500 ease-in-out hover:bg-emerald-500 hover:text-white "
+            href="https://api.whatsapp.com/send?phone=573214387967&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20planes%20de%20entrenamiento."
+            rel="noreferrer"
+            target="_blank"
+            // download="brochure_servicios.pdf"
+          >
+            <i className="fa-solid fa-thumbs-up px-2 md:px-3 text-3xl"></i>
+            <span>Te ayudo a personalizar tu dieta</span>
+          </a>
+      </div>
     </div>
   );
 };
