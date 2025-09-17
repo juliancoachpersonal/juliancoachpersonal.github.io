@@ -68,11 +68,14 @@ export const MuscleDetails = () => {
                         {/* <a href="/blog-post"></a> */}
                         <div className="flex-1">
                           {/* <a href="/blog-post"> */}
-                            <div className="flex space-x-1 pt-6 text-sm text-gray-500">
-                              <span className="font-bold"> 🟢 Todos los niveles </span>
-                              <span aria-hidden="true"> · </span>
-                              <span> 4 minutos </span>
-                            </div>
+                            {routine.name != "Encuentra más ejercicios" && (
+                                <div className="flex space-x-1 pt-6 text-sm text-gray-500">
+                                  <span className="font-bold"> 🟢 Todos los niveles </span>
+                                  <span aria-hidden="true"> · </span>
+                                  <span> 4 minutos </span>
+                                </div>
+                            )}
+                            
                           {/* </a> */}
                           {/* <a href="#" className="mt-2 block space-y-6"> */}
                           <div className="mt-2 mb-4 block text-justify">

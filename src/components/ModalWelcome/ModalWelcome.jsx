@@ -23,13 +23,13 @@ export const ModalWelcome = () => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
-      <div className="w-[100%] md:w-[50%] m-0 border rounded-lg bg-white shadow overflow-auto">
+      <div className="md:w-[50%] m-0 border rounded-lg bg-white shadow overflow-auto">
         <div className="flex">
           
           <div className="md:hidden max-h-screen overflow-y-auto">
             <img className='' src={modalV} alt="Imagen version movil" />
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block w-100">
             <img className='w-100 m-0' src={modalH} alt="Imagen version escritorio" />
           </div>
         </div>

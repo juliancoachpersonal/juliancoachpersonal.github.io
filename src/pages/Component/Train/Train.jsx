@@ -34,7 +34,7 @@ export const Train = () => {
       </h3> */}
 
       <div>
-        <div className="flex gap-6 flex-wrap justify-center">
+        <div className="flex gap-6 flex-wrap justify-center mt-12">
           {list_muscles.map((item, index) => (
             <HashLink
               key={index}

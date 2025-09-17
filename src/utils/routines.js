@@ -9,6 +9,8 @@ import abdomen from "../assets/images/components/train/abdomen.jpg";
 import pierna from "../assets/images/components/train/pierna.jpg";
 import gemelos from "../assets/images/components/train/gemelos.jpg";
 
+import premium from "../assets/images/components/train/additional.jpeg"
+
 import pecs_1 from "../assets/images/components/train/pecs/1.png";
 import pecs_2 from "../assets/images/components/train/pecs/2.png";
 import pecs_3 from "../assets/images/components/train/pecs/3.png";
@@ -746,6 +748,26 @@ export const routines = [
             desc: "Aumenta la dificultad y trabaja más los hombros.",
           },
         ],
+      },
+      {
+        id: 13,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
       },
     ],
   },
@@ -2099,6 +2121,26 @@ export const routines = [
           },
         ],
       },
+      {
+        id: 24,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
+      },
     ],
   },
   {
@@ -3254,6 +3296,26 @@ export const routines = [
           },
         ],
       },
+      {
+        id: 20,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
+      },
     ],
   },
   {
@@ -4240,6 +4302,26 @@ export const routines = [
           },
         ],
       },
+      {
+        id: 15,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
+      },
     ],
   },
   {
@@ -5094,6 +5176,26 @@ export const routines = [
           },
         ],
       },
+      {
+        id: 14,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
+      },
     ],
   },
   {
@@ -5629,6 +5731,26 @@ export const routines = [
             desc: "Si sientes molestias, considera alternativas como la plancha estática o la plancha lateral, que también trabajan los mismos músculos con menor riesgo.",
           },
         ],
+      },
+      {
+        id: 10,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
       },
     ],
   },
@@ -8981,6 +9103,26 @@ export const routines = [
           },
         ],
       },
+      {
+        id: 52,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
+      },
     ],
   },
   {
@@ -9098,6 +9240,26 @@ export const routines = [
             desc: "Si sientes molestias, considera alternativas como las elevaciones de gemelos sentado o el uso de bandas de resistencia.",
           },
         ],
+      },
+      {
+        id: 3,
+        name: "Encuentra más ejercicios",
+        image: premium,
+        position: [
+          "Imagina tener a tu alcance más de 1000 ejercicios diseñados para ti, con variedad, progresión y la posibilidad de nunca aburrirte ni quedarte sin ideas para entrenar. Esa es la diferencia entre quedarse en lo básico y dar el salto a lo realmente transformador.",
+        ],
+        execution: [
+          "El servicio premium no es solo un extra 👉🏼 es el acceso a una biblioteca completa que evoluciona contigo, que se adapta a tu nivel, a tu tiempo y a tus objetivos. Mientras que lo gratuito puede darte un vistazo, el premium abre la puerta a todo un universo de opciones que hacen que tu entrenamiento sea mucho más dinámico, motivante y efectivo."
+        ],
+        advices: [
+          "Invertir en tu salud y rendimiento siempre será la mejor decisión. Por eso, al dar el paso al plan premium, no solo desbloqueas más de mil ejercicios, también aseguras constancia, variedad y la tranquilidad de que siempre tendrás una guía profesional a tu disposición."
+        ],
+        muscles: [
+          {
+            name: "",
+            desc: "Haz de tu entrenamiento una experiencia ilimitada. El premium no es un gasto, es una inversión que marca la diferencia entre entrenar por entrenar y entrenar para progresar.",
+          },
+        ]
       },
     ],
   },

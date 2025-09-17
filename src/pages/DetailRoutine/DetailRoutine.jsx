@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { routines } from "../../utils/routines";
+import { HashLink } from "react-router-hash-link";
 
 export const DetailRoutine = () => {
   const [muscleRoutine, setMuscleRoutine] = useState();
@@ -20,15 +21,21 @@ export const DetailRoutine = () => {
           {muscleRoutine.name}
         </h2>
 
-        <img src={muscleRoutine.image} alt={muscleRoutine.name} className="w-[50%] mx-auto"/>
+        <img
+          src={muscleRoutine.image}
+          alt={muscleRoutine.name}
+          className="md:w-[50%] mx-auto"
+        />
 
         <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-          <div className="flex items-center space-x-4 mb-3">
-            <i className="fa-solid fa-person-rays text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-            <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-              Posición Inicial
-            </h3>
-          </div>
+          {muscleRoutine.name != "Encuentra más ejercicios" && (
+            <div className="flex items-center space-x-4 mb-3">
+              <i className="fa-solid fa-person-rays text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                Posición Inicial
+              </h3>
+            </div>
+          )}
 
           <ul>
             {muscleRoutine.position.map((item, index) => (
@@ -39,12 +46,15 @@ export const DetailRoutine = () => {
           </ul>
         </div>
         <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-          <div className="flex items-center space-x-4 mb-3">
-            <i className="fa-solid fa-dumbbell text-2xl bg-[#3c8274] text-white px-2 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-            <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-              Ejecución
-            </h3>
-          </div>
+          {muscleRoutine.name != "Encuentra más ejercicios" && (
+            <div className="flex items-center space-x-4 mb-3">
+              <i className="fa-solid fa-dumbbell text-2xl bg-[#3c8274] text-white px-2 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                Ejecución
+              </h3>
+            </div>
+          )}
+
           <ul>
             {muscleRoutine.execution.map((item, index) => (
               <li key={index} className="list-disc ms-6 text-justify">
@@ -54,12 +64,15 @@ export const DetailRoutine = () => {
           </ul>
         </div>
         <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-          <div className="flex items-center space-x-4 mb-3">
-            <i className="fa-solid fa-clipboard-check text-2xl bg-[#3c8274] text-white px-4 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-            <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-              Consejos
-            </h3>
-          </div>
+          {muscleRoutine.name != "Encuentra más ejercicios" && (
+            <div className="flex items-center space-x-4 mb-3">
+              <i className="fa-solid fa-clipboard-check text-2xl bg-[#3c8274] text-white px-4 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                Consejos
+              </h3>
+            </div>
+          )}
+
           <ul>
             {muscleRoutine.advices.map((item, index) => (
               <li key={index} className="list-disc ms-6 text-justify">
@@ -69,12 +82,15 @@ export const DetailRoutine = () => {
           </ul>
         </div>
         <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-          <div className="flex items-center space-x-4 mb-3">
-            <i className="fa-solid fa-child text-2xl bg-[#3c8274] text-white px-4 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-            <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-              Músculos Trabajados
-            </h3>
-          </div>
+          {muscleRoutine.name != "Encuentra más ejercicios" && (
+            <div className="flex items-center space-x-4 mb-3">
+              <i className="fa-solid fa-child text-2xl bg-[#3c8274] text-white px-4 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                Músculos Trabajados
+              </h3>
+            </div>
+          )}
+
           <ul>
             {muscleRoutine.muscles.map((item, index) => (
               <li key={index} className="list-disc ms-6 text-justify">
@@ -87,12 +103,15 @@ export const DetailRoutine = () => {
 
         {muscleRoutine.warnings && (
           <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-            <div className="flex items-center space-x-4 mb-3">
-              <i className="fa-solid fa-triangle-exclamation text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-                Precauciones
-              </h3>
-            </div>
+            {muscleRoutine.name != "Encuentra más ejercicios" && (
+              <div className="flex items-center space-x-4 mb-3">
+                <i className="fa-solid fa-triangle-exclamation text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+                <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                  Precauciones
+                </h3>
+              </div>
+            )}
+
             <ul>
               {muscleRoutine.warnings.map((item, index) => (
                 <li key={index} className="list-disc ms-6 text-justify">
@@ -106,12 +125,15 @@ export const DetailRoutine = () => {
 
         {muscleRoutine.variations && (
           <div className="bg-neutral-100 shadow-sm mt-6 p-4 rounded-lg">
-            <div className="flex items-center space-x-4 mb-3">
-              <i className="fa-solid fa-child text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
-              <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
-                Variaciones
-              </h3>
-            </div>
+            {muscleRoutine.name != "Encuentra más ejercicios" && (
+              <div className="flex items-center space-x-4 mb-3">
+                <i className="fa-solid fa-child text-2xl bg-[#3c8274] text-white px-3 py-2 rounded-full transition-colors duration-300 hover:bg-blue-400"></i>
+                <h3 className="text-3xl font-bold text-[#3c8274] self-center underline">
+                  Variaciones
+                </h3>
+              </div>
+            )}
+
             <ul>
               {muscleRoutine.variations.map((item, index) => (
                 <li key={index} className="list-disc ms-6 text-justify">
@@ -120,6 +142,17 @@ export const DetailRoutine = () => {
                 </li>
               ))}
             </ul>
+          </div>
+        )}
+
+        {muscleRoutine.name == "Encuentra más ejercicios" && (
+          <div className="flex justify-center">
+            <HashLink
+              to="/premium"
+              className="mt-8 inline-flex items-center justify-center rounded-xl bg-green-600 py-3 px-6 font-dm text-base font-medium text-white shadow-xl shadow-green-400/75 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+            >
+              Desbloquea tu Potencial!
+            </HashLink>
           </div>
         )}
       </div>
