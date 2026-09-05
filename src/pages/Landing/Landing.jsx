@@ -14,7 +14,7 @@ import { Carousel } from "../../components/Carousel/Carousel";
 import car1 from "../../assets/images/landing/hero/new2/car1.mp4";
 import car2 from "../../assets/images/landing/hero/new2/car2.mp4";
 // import car3 from "../../assets/images/landing/hero/new2/car3.mp4";
-import car4 from "../../assets/images/landing/hero/new2/car4.mp4";
+import car4 from "../../assets/images/landing/hero/new2/car3.mp4";
 
 export function Landing({t}){
     const carousel = [car1, car2, car4];
